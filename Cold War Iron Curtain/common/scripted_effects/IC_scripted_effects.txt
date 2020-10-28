@@ -1,8 +1,8 @@
 
 ic_pulse = {
-	random_country = {
-		global_statistics = yes
-	}
+	#random_country = {
+	#	global_statistics = yes
+	#}
 	federation_calculator = yes
 	set_variable = { temp_check = THIS.id } 
 	set_variable = { oil_consumption_total_desired = 0 }
@@ -10,6 +10,20 @@ ic_pulse = {
 	monthly_set_fpp = yes
 	monthly_infamy_calc = yes
 	#resource_concession_evaluation = yes
+	add_to_variable = { ic_pulse_check = 1 }
+	if = {
+		limit = {
+			check_variable = { global.eco_health < 0 }
+		}
+		set_variable = { global.eco_health = 0 }
+	}
+	
+	set_variable = { global.eco_output_factor = 1 }
+	set_variable = { ecoalpha = global.eco_health }
+	multiply_variable = { ecoalpha = 10 }
+	add_to_variable = { global.eco_output_factor = ecoalpha }
+	divide_variable = { global.eco_output_factor = 11 } #Average between 1 and eco_health x 11. 0 eco_health = 0.09 output factor
+	
 	clamp_variable = {
 		var = foriegnPowerProjection
 		min = 0
@@ -22,12 +36,6 @@ ic_pulse = {
 	}
 	every_owned_state = {
 		state_infra_modifier_setup = yes
-		#farm_pulse = yes #FOOD
-		#Food_Need_Pulse = yes
-		###OLD###
-		#renewable_energy_pulse = yes
-		#fossil_fuel_pulse = yes
-		#nuclear_power_pulse = yes
 	}
 	if = {
 		limit = {
@@ -48,6 +56,7 @@ ic_pulse = {
 			}
 		}
 	}
+	
 	if = {
 		limit = {
 			tag = FRA
@@ -354,8 +363,27 @@ ic_pulse = {
 		country_event = SAU_Focus_Events.1
 		set_country_flag = King_Saud
 	} 	 
-
-
+	if = {
+		limit = {
+			tag = PRC
+			date > 1956.3.1
+			date < 1956.4.30
+			NOT = { has_country_flag = PRC_SIMPLIFIED }
+		}
+		news_event = news.1004
+		set_country_flag = PRC_SIMPLIFIED
+	} 	 
+	if = {
+		limit = {
+			tag = PRC
+			date > 1958.3.1
+			date < 1958.4.30
+			NOT = { has_country_flag = PRC_PINYIN }
+		}
+		news_event = news.10004
+		set_country_flag = PRC_PINYIN
+	} 	
+	
 	if = {
 		limit = {
 			tag = CHI
@@ -544,6 +572,7 @@ ic_pulse = {
 			has_country_flag = NLF_trigger
 		}
 		country_event = NLF_Flavor.1
+		news_event = NLF_Flavor.10
 	}
 	
 
@@ -902,7 +931,19 @@ ic_pulse = {
 			}
 		}
 		country_event = sov_death.1
-	} 
+	}
+	if = {
+		limit = {
+			tag = SOV
+			date > 1984.2.1
+			date < 1984.4.1
+			has_country_leader = {
+				name = "Yuri Andropov"
+				ruling_only = yes
+			}
+		}
+		country_event = sov_death.3
+	}
 	if = {
 		limit = {
 			date > 1964.9.01
@@ -1354,7 +1395,112 @@ ic_pulse = {
 		set_country_flag = Currency_News_1
 		news_event = Currency.1
 	} 
-	 
+	if = {
+		limit = {
+			tag = JOR
+			date > 1968.06.01
+			date < 1968.07.01
+		}
+		country_event = black_september_prelude.2
+	} 
+	if = {
+		limit = {
+			tag = JOR
+			NOT = { has_country_flag = black_september_prelude_2 }
+			date > 1968.10.01
+			date < 1968.11.01
+		}
+		set_country_flag = black_september_prelude_2
+		news_event = black_september_prelude.3
+	} 	
+	if = {
+		limit = {
+			tag = JOR
+			NOT = { has_country_flag = black_september_prelude_3 }
+			date > 1968.11.01
+			date < 1968.12.01
+		}
+		set_country_flag = black_september_prelude_3
+		news_event = black_september_prelude.4
+	} 		 
+	if = {
+		limit = {
+			tag = JOR
+			NOT = { has_country_flag = black_september_prelude_5 }
+			date > 1969.04.01
+			date < 1969.05.01
+		}
+		set_country_flag = black_september_prelude_5
+		news_event = black_september_prelude.5
+	} 	
+	if = {
+		limit = {
+			tag = JOR
+			NOT = { has_country_flag = black_september_prelude_6 }
+			date > 1970.02.01
+			date < 1970.03.01
+		}
+		set_country_flag = black_september_prelude_6
+		news_event = black_september_prelude.6
+	}	
+	if = {
+		limit = {
+			tag = JOR
+			NOT = { has_country_flag = black_september_prelude_7 }
+			date > 1970.06.01
+			date < 1970.07.01
+		}
+		set_country_flag = black_september_prelude_7
+		news_event = black_september_prelude.7
+	}	
+	if = {
+		limit = {
+			tag = JOR
+			NOT = { has_country_flag = black_september_prelude_11 }
+			date > 1970.09.01
+			date < 1970.10.01
+		}
+		set_country_flag = black_september_prelude_11
+		news_event = black_september_prelude.11
+	}	
+	if = {
+		limit = {
+			tag = JOR
+			NOT = { has_country_flag = black_september_prelude_15 }
+			date > 1970.10.01
+			date < 1970.11.01
+		}
+		set_country_flag = black_september_prelude_15
+		news_event = black_september.15
+	}	
+	if = {
+		limit = {
+			tag = JOR
+			NOT = { has_country_flag = black_september_prelude_17 }
+			date > 1970.08.01
+			date < 1970.09.01
+		}
+		set_country_flag = black_september_prelude_17
+		news_event = black_september.17
+	}	
+
+	if = {
+		limit = {
+			tag = JOR
+			date > 1970.06.01
+			date < 1970.07.01
+		}
+		country_event = black_september_prelude.8
+	} 
+	if = {
+		limit = {
+			tag = JOR
+			date > 1971.11.01
+			date < 1971.12.01
+		}
+		country_event = black_september.18
+	} 
+
 	if = {
 		limit = { 
 			tag = JAP 
@@ -1852,7 +1998,7 @@ ic_pulse = {
 		}
 		country_event = FCF.2
 	}
-	if = {
+	if = { #obsolete!
 		limit = {
 			OR = {
 				tag = ENG
@@ -2055,12 +2201,12 @@ ic_pulse = {
 				}
 				
 
-				if = {
-					limit = {
-						tag = NGA
-					}
-					load_focus_tree = NGA_1960s
-				}
+				#if = {
+				#	limit = {
+				#		tag = NGA
+				#	}
+				#	load_focus_tree = NGA_1960s
+				#}
 				if = {
 					limit = {
 						tag = SAF
@@ -6108,6 +6254,38 @@ ic_pulse = {
 	}
 	if = {
 		limit = {
+			original_tag = ENG
+			date > 1978.10.10
+			date < 1978.11.1
+		}
+		country_event = decolonization.45
+	}
+	if = {
+		limit = {
+			original_tag = ENG
+			date > 1978.11.22
+			date < 1978.12.1
+		}
+		country_event = decolonization.46
+	}
+	if = {
+		limit = {
+			original_tag = ENG
+			date > 1979.10.22
+			date < 1979.11.1
+		}
+		country_event = decolonization.47
+	}
+	if = {
+		limit = {
+			original_tag = ENG
+			date > 1974.10.22
+			date < 1974.11.1
+		}
+		country_event = decolonization.48
+	}
+	if = {
+		limit = {
 			original_tag = UGA
 			ENG = {has_subject = UGA}
 			date > 1962.010.01
@@ -6166,7 +6344,7 @@ ic_pulse = {
 		}
 		country_event = chad.1
 	}
-#siaka stevens's coup
+	#siaka stevens's coup
 	if = {
 		limit = {
 			original_tag = SIE
@@ -6175,7 +6353,7 @@ ic_pulse = {
 		}
 		country_event = SIE.1
 	}
-#Siad Barre's coup
+	#Siad Barre's coup
 	if = {
 		limit = {
 			original_tag = SOM
@@ -6185,7 +6363,7 @@ ic_pulse = {
 		}
 		country_event = som.3
 	}
-#Alphonse Massamba-Débat's coup
+	#Alphonse Massamba-Débat's coup
 	if = {
 		limit = {
 			original_tag = RCG
@@ -6748,19 +6926,17 @@ ic_pulse = {
 			date > 1951.10.1
 			date < 1951.12.25
 		}
-		country_event = suezcrisis.0  
+		country_event = suez.0  
 	}
 	if = {
 		limit = {
 			tag = EGY
 			date > 1956.07.1
-			date < 1956.09.15
+			date < 1956.08.2
 		}
-		country_event = suezcrisis.2
+		country_event = suez.2
 		BAH = { country_event = Suez_Crisis_Gulf.50 }
 		QAT = { country_event = QAT_Suez_Crisis.1 }
-		country_event = { id = suezcrisis.6 days = 30 }
-		country_event = { id = suezcrisis.7 days = 75 }
 	}
 	if = {
 		limit = {
@@ -7278,8 +7454,9 @@ ic_pulse = {
 					is_controlled_by = LAO
 				}
 			}
-			FRA = {remove_resource_rights = 1280}
+			
 		}
+		FRA = {remove_resource_rights = 1280}
 	}
 	if = {
 		limit = {
@@ -7488,5 +7665,22 @@ ic_pulse = {
 		}
 		country_event = usanews.2
 	}
-
+	#
+	if = {
+		limit = {
+			OR = {
+				tag = KOR
+				tag = KPA
+			}
+			has_country_flag = korea_devestated
+			has_war = no
+		}
+		clr_country_flag = korea_devestated
+		remove_province_modifier = {
+			static_modifiers = { korean_war_devestation }
+			province = {
+				all_provinces = yes
+			}
+		}		
+	}
 }

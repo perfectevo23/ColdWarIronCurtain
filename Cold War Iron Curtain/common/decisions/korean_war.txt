@@ -70,6 +70,13 @@ korean_war_prc_category = {
 				threat = 20
 				name = korean_war_intervantion
 			}
+			custom_effect_tooltip = korean_war_devestation_tt
+			hidden_effect = {
+				news_event = {
+					id = korean_war_devestation.1
+					days = 182
+				}
+			}
 			
 	   	KPA = {
 			load_oob = PRC_communist_reinforcements_Korean_War_initial
@@ -105,6 +112,7 @@ korean_war_prc_category = {
 					idea = unprepared_defenses
 					days = 90
 				}
+				country_event = MacArthur_Dismissal.2
 			}
 			news_event = PRC_Focus.20
 			set_country_flag = KPA_INTERVENTION_1

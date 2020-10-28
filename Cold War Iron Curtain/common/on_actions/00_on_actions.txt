@@ -538,6 +538,46 @@ on_actions = {
 	on_startup = {
 
 		effect = {
+			SAF = {
+				set_variable = { total_pop_k_prior = 0 }
+				every_owned_state = {
+					add_to_variable = { SAF.total_pop_k_prior = state_population_k }
+				}
+				set_variable = { quarterly_white_immigration_k = 15 }
+				set_variable = { quarterly_white_immigration = 15000 } 
+				set_variable = { saf_white_growth = 0.13 }
+				set_variable = { saf_colored_growth = 0.12 } 
+				set_variable = { saf_asian_growth = 0.04 } 
+				set_variable = { saf_bantu_growth = 0.71 }
+
+				set_variable = { white_percentage = 0.21 }
+				set_variable = { colored_percentage = 0.09 }
+				set_variable = { asian_percentage = 0.03 }
+				set_variable = { bantu_percentage = 0.67 }
+
+				set_variable = { white_population = 0.21 }
+				set_variable = { colored_population = 0.09 }   
+				set_variable = { asian_population = 0.03 }    
+				set_variable = { bantu_population = 0.67 } 
+
+				set_variable = { white_population_prior = total_pop_k_prior }
+				set_variable = { colored_population_prior = total_pop_k_prior }
+				set_variable = { asian_population_prior = total_pop_k_prior }
+				set_variable = { bantu_population_prior = total_pop_k_prior }
+
+				multiply_variable = { white_population_prior = white_percentage }
+				round_variable = white_population_prior
+
+				multiply_variable = { colored_population_prior = colored_percentage }
+				round_variable = colored_population_prior
+
+				multiply_variable = { asian_population_prior = asian_percentage }
+				round_variable = asian_population_prior
+
+				multiply_variable = { bantu_population_prior = bantu_percentage }
+				round_variable = bantu_population_prior
+				create_pie_chart_south_africa = yes				
+			}
 			#Flag Building History Initialization#
 			#This runs a cleanup in the history files to make modding states easier. All previous coms from seperate startdates are added and to prevent errors and duplicate flags this script cleans up all inferior flags
 			every_state = {
@@ -611,13 +651,13 @@ on_actions = {
 							#Indo-Iranian#
 							has_country_flag = PR_Hindu 
 							has_country_flag = PR_Sikh 
-							has_country_flag = PR_Jain 
+							has_country_flag = PR_Navayana 
 							has_country_flag = PR_TraditionalIranian 
 							#Irreligious#
 							has_country_flag = PR_Irreligious 
 							has_country_flag = PR_Atheist 
 							#Minor/Esoteric#
-							has_country_flag = PR_Spiritual 
+							has_country_flag = PR_ZionistChristian 
 							has_country_flag = PR_Statist 
 							has_country_flag = PR_CultistSafe 
 							has_country_flag = PR_CultistFatal
@@ -625,7 +665,7 @@ on_actions = {
 							has_country_flag = PR_TraditionalAmerican
 							has_country_flag = PR_TraditionalOceanic
 							has_country_flag = PR_Nautralist
-							has_country_flag = PR_Furry 
+							has_country_flag = PR_Messianic 
 							has_country_flag = PR_Other 
 						}
 					}
@@ -636,7 +676,7 @@ on_actions = {
 ######################################################################
 #####################CWIC DEFINES, DO NOT TOUCH#######################
 #defines version
-	set_variable = { ICDefinesVersion = 36 }
+	set_variable = { ICDefinesVersion = 37 }
 #Use [?global.varname] in loc to display them
 #Use global.varname in scripts to use them
 #Bulk is 10x the base
@@ -667,6 +707,10 @@ on_actions = {
 	set_variable = { DevelopedTaxCredit = 1.25 }
 	set_variable = { ModernTaxCredit = 1.5 }
 	set_variable = { AutomatedTaxCredit = 1.75 }
+	
+	#ECOLOGICAL
+	set_variable = { eco_health = 0.95 } #Starting planet/ecosystem hitpoints
+	#{ eco_output_factor } Multiplicative #{ eco_output_rate } Additive Effect
 	
 	#Agency-related Variables#
 	set_variable = { upgrades_per_operative = 10 }
@@ -858,6 +902,14 @@ on_actions = {
 	
 	set_variable = { MissionCost = 1 } #Money Cost Per Mil Population Per Month to run a mission 
 ########################DEFINES CALCULATIONS##########################
+
+	set_variable = { eco_output_factor = 1 }
+	set_variable = { ecoalpha = eco_health }
+	multiply_variable = { ecoalpha = 10 }
+	add_to_variable = { eco_output_factor = ecoalpha }
+	divide_variable = { eco_output_factor = 11 } #Average between 1 and eco_health x 11. 0 eco_health = 0.09 output factor
+	
+	set_variable = { eco_output_rate = 0 } #Global temporary effects. Additive with farm_tech and offset by it.
 	
 	set_variable = { WPTierOneLarge = WPTierOne }
 	multiply_variable = { WPTierOneLarge = LargePer }
@@ -1161,6 +1213,19 @@ on_actions = {
 		add_to_array = { QAT.arab_league_option_list = 14 }
 		add_to_array = { QAT.arab_league_option_list = 15 }
 		add_to_array = { QAT.arab_league_option_list = 16 }
+		add_to_array = { QAT.arab_league_option_list = 17 }
+		add_to_array = { QAT.arab_league_option_list = 18 }
+		add_to_array = { QAT.arab_league_option_list = 19 }
+		add_to_array = { QAT.arab_league_option_list = 20 }
+		add_to_array = { QAT.arab_league_option_list = 21 }
+		add_to_array = { QAT.arab_league_option_list = 22 }
+		add_to_array = { QAT.arab_league_option_list = 23 }
+		add_to_array = { QAT.arab_league_option_list = 24 }
+		add_to_array = { QAT.arab_league_option_list = 25 }
+		add_to_array = { QAT.arab_league_option_list = 26 }
+		add_to_array = { QAT.arab_league_option_list = 27 }
+		add_to_array = { QAT.arab_league_option_list = 28 }
+		
 
 		add_to_array = { QAT.arab_league_influence_option_list = 0 }
 		add_to_array = { QAT.arab_league_influence_option_list = 1 }
@@ -1176,9 +1241,7 @@ on_actions = {
 		add_to_array = { QAT.arab_league_influence_option_list = 11 }
 		add_to_array = { QAT.arab_league_influence_option_list = 12 }
 		add_to_array = { QAT.arab_league_influence_option_list = 13 }
-		add_to_array = { QAT.arab_league_influence_option_list = 14 }
-		add_to_array = { QAT.arab_league_influence_option_list = 15 }
-		add_to_array = { QAT.arab_league_influence_option_list = 16 }
+		
 
 		add_to_array = { QAT.arab_league_relations_list = 0 }
 		add_to_array = { QAT.arab_league_relations_list = 1 }
@@ -1442,13 +1505,14 @@ on_actions = {
 					}		
 				}
 			}
-			SOV = { add_threat = 17 }
+			
 			random_other_country = {
 				limit = {
 					is_ai = no
 				}
 				news_event = tutorial.1000
-				
+				country_event = { id = tutorial.2000 hours = 1 }
+				#country_event = tutorial.1
 			}
 			every_country = {
 				limit = {
@@ -1490,6 +1554,113 @@ on_actions = {
 	#ROOT is new controller #FROM is old controller #FROM.FROM is state ID
 	on_state_control_changed = {
 		effect = {
+			 
+			if = {
+				limit = {
+					tag = ISR
+					has_country_flag = suezcrisis 
+					NOT = { has_country_flag = going_it_alone }
+					453 = {
+						is_controlled_by = ISR
+						is_owned_by = EGY
+					}
+					ISR = { has_war_with = EGY }
+				}
+				country_event = operationkadesh.3 
+				
+			}
+
+			if = {
+				limit = {
+					tag = ISR
+					has_country_flag = suezcrisis 
+					NOT = { has_country_flag = going_it_alone }
+					805 = {
+						is_controlled_by = ISR
+						is_owned_by = EGY
+					}
+					ISR = { has_war_with = EGY }
+				}
+				country_event = operationkadesh.4
+			}
+			
+			if = {
+				limit = {
+					tag = ISR
+					has_country_flag = suezcrisis 
+					NOT = { has_country_flag = going_it_alone }
+					801 = {
+						is_controlled_by = ISR
+						is_owned_by = EGY
+					}
+					ISR = { has_war_with = EGY }
+				}
+				country_event = operationkadesh.5
+			}
+
+			if = {
+				limit = {
+					tag = ISR
+					has_country_flag = suezcrisis 
+					has_country_flag = going_it_alone 
+					801 = {
+						is_controlled_by = ISR
+						is_owned_by = EGY
+					}
+					805 = {
+						is_controlled_by = ISR
+						is_owned_by = EGY
+					}
+					453 = {
+						is_controlled_by = ISR
+						is_owned_by = EGY
+					}
+					ISR = { has_war_with = EGY }
+				}
+				country_event = operationkadesh.6
+			}
+			
+			if = {
+				limit = {
+					tag = EGY
+					has_country_flag = suezcrisisegy
+					1296 = {
+						is_controlled_by = EGY
+						is_owned_by = ISR
+					}
+					ISR = { has_war_with = EGY }
+				}
+				country_event = suez.30 
+				
+			}
+			
+			if = {
+				limit = {
+					tag = EGY
+					has_country_flag = suezcrisisegy
+					755 = {
+						is_controlled_by = EGY
+						is_owned_by = ISR
+					}
+					ISR = { has_war_with = EGY }
+				}
+				country_event = suez.30 
+				
+			}
+			
+			if = {
+				limit = {
+					tag = EGY
+					has_country_flag = suezcrisisegy
+					803 = {
+						is_controlled_by = EGY
+						is_owned_by = ISR
+					}
+					ISR = { has_war_with = EGY }
+				}
+				country_event = suez.30 
+				
+			}
 
 			if = {
 				limit = {
@@ -1601,6 +1772,20 @@ on_actions = {
 		random_events = {
 			100 = nuke_dropped.0
 			10000 = nuke_dropped.100
+		}
+	}
+	on_annex = {
+		effect = {
+		if = {
+			limit = {
+				date < 1959.12.31
+				FROM = { TAG = GRE }
+				ROOT = { TAG = PDG }				
+			}
+			PDG = {
+				set_capital = 47
+			    }
+			}
 		}
 	}
 }

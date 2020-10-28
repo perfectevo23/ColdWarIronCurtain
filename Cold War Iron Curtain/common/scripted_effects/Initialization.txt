@@ -105,21 +105,21 @@ state_on_startup_initialization = {
 		#Indo-Iranian#
 		add_to_variable = { ReligionTotal = ReligionHindu  }
 		add_to_variable = { ReligionTotal = ReligionSikh  }
-		add_to_variable = { ReligionTotal = ReligionJain  }
+		add_to_variable = { ReligionTotal = ReligionNavayana  }
 		add_to_variable = { ReligionTotal = ReligionTraditionalIranian  }
 		#Irreligious#
 		add_to_variable = { ReligionTotal = ReligionIrreligious }
 		add_to_variable = { ReligionTotal = ReligionAtheist  }
 		#Minor/Esoteric#
-		add_to_variable = { ReligionTotal = ReligionSpiritual  }
+		add_to_variable = { ReligionTotal = ReligionZionistChristian  }
 		add_to_variable = { ReligionTotal = ReligionStatist  }
 		add_to_variable = { ReligionTotal = ReligionCultistSafe  }
 		add_to_variable = { ReligionTotal = ReligionCultistFatal  }
 		add_to_variable = { ReligionTotal = ReligionTraditionalAfrican  }
 		add_to_variable = { ReligionTotal = ReligionTraditionalAmerican  }
 		add_to_variable = { ReligionTotal = ReligionTraditionalOceanic  }
-		add_to_variable = { ReligionTotal = ReligionNaturalist  }
-		add_to_variable = { ReligionTotal = ReligionFurry  }
+		add_to_variable = { ReligionTotal = ReligionChineseSalvationist  }
+		add_to_variable = { ReligionTotal = ReligionMessianic  }
 		add_to_variable = { ReligionTotal = ReligionOther  }
 		
 	if = { #Anti divide by 0
@@ -164,21 +164,21 @@ state_on_startup_initialization = {
 		#Indo-Iranian#
 		divide_variable = { ReligionHindu = ReligionValueRatio }
 		divide_variable = { ReligionSikh = ReligionValueRatio }
-		divide_variable = { ReligionJain = ReligionValueRatio }
+		divide_variable = { ReligionNavayana = ReligionValueRatio }
 		divide_variable = { ReligionTraditionalIranian = ReligionValueRatio }
 		#Irreligious#
 		divide_variable = { ReligionIrreligious = ReligionValueRatio }
 		divide_variable = { ReligionAtheist = ReligionValueRatio }
 		#Minor/Esoteric#
-		divide_variable = { ReligionSpiritual = ReligionValueRatio }
+		divide_variable = { ReligionZionistChristian = ReligionValueRatio }
 		divide_variable = { ReligionStatist = ReligionValueRatio }
 		divide_variable = { ReligionCultistSafe = ReligionValueRatio }
 		divide_variable = { ReligionCultistFatal = ReligionValueRatio }
 		divide_variable = { ReligionTraditionalAfrican = ReligionValueRatio  }
 		divide_variable = { ReligionTraditionalAmerican = ReligionValueRatio  }
 		divide_variable = { ReligionTraditionalOceanic  = ReligionValueRatio }
-		divide_variable = { ReligionNaturalist = ReligionValueRatio  }
-		divide_variable = { ReligionFurry = ReligionValueRatio }
+		divide_variable = { ReligionChineseSalvationist = ReligionValueRatio  }
+		divide_variable = { ReligionMessianic = ReligionValueRatio }
 		divide_variable = { ReligionOther = ReligionValueRatio }
 	
 		#Christian#
@@ -203,21 +203,21 @@ state_on_startup_initialization = {
 		#Indo-Iranian#
 		add_to_variable = { ROOT.ReligionHinduTotal = ReligionHindu }
 		add_to_variable = { ROOT.ReligionSikhTotal = ReligionSikh }
-		add_to_variable = { ROOT.ReligionJainTotal = ReligionJain }
+		add_to_variable = { ROOT.ReligionNavayanaTotal = ReligionNavayana }
 		add_to_variable = { ROOT.ReligionTraditionalIranianTotal = ReligionTraditionalIranian }
 		#Irreligious#
 		add_to_variable = { ROOT.ReligionIrreligiousTotal = ReligionIrreligious }
 		add_to_variable = { ROOT.ReligionAtheistTotal = ReligionAtheist }
 		#Minor/Esoteric#
-		add_to_variable = { ROOT.ReligionSpiritualTotal = ReligionSpiritual }
+		add_to_variable = { ROOT.ReligionZionistChristianTotal = ReligionZionistChristian }
 		add_to_variable = { ROOT.ReligionStatistTotal = ReligionStatist }
 		add_to_variable = { ROOT.ReligionCultistSafeTotal = ReligionCultistSafe }
 		add_to_variable = { ROOT.ReligionCultistFatalTotal = ReligionCultistFatal }
 		add_to_variable = { ROOT.ReligionTraditionalAfricanTotal = ReligionTraditionalAfrican  }
 		add_to_variable = { ROOT.ReligionTraditionalAmericanTotal = ReligionTraditionalAmerican }
 		add_to_variable = { ROOT.ReligionTraditionalOceanicTotal = ReligionTraditionalOceanic }
-		add_to_variable = { ROOT.ReligionNaturalistTotal = ReligionNaturalist  }
-		add_to_variable = { ROOT.ReligionFurryTotal = ReligionFurry }
+		add_to_variable = { ROOT.ReligionChineseSalvationistTotal = ReligionChineseSalvationist  }
+		add_to_variable = { ROOT.ReligionMessianicTotal = ReligionMessianic }
 		add_to_variable = { ROOT.ReligionOtherTotal = ReligionOther }
 }
 normalize_religion = {
@@ -244,21 +244,21 @@ normalize_religion = {
 		#Indo-Iranian#
 		add_to_variable = { ReligionTotal = ReligionHindu  }
 		add_to_variable = { ReligionTotal = ReligionSikh  }
-		add_to_variable = { ReligionTotal = ReligionJain  }
+		add_to_variable = { ReligionTotal = ReligionNavayana  }
 		add_to_variable = { ReligionTotal = ReligionTraditionalIranian  }
 		#Irreligious#
 		add_to_variable = { ReligionTotal = ReligionIrreligious }
 		add_to_variable = { ReligionTotal = ReligionAtheist  }
 		#Minor/Esoteric#
-		add_to_variable = { ReligionTotal = ReligionSpiritual  }
+		add_to_variable = { ReligionTotal = ReligionZionistChristian  }
 		add_to_variable = { ReligionTotal = ReligionStatist  }
 		add_to_variable = { ReligionTotal = ReligionCultistSafe  }
 		add_to_variable = { ReligionTotal = ReligionCultistFatal  }
 		add_to_variable = { ReligionTotal = ReligionTraditionalAfrican  }
 		add_to_variable = { ReligionTotal = ReligionTraditionalAmerican  }
 		add_to_variable = { ReligionTotal = ReligionTraditionalOceanic  }
-		add_to_variable = { ReligionTotal = ReligionNaturalist  }
-		add_to_variable = { ReligionTotal = ReligionFurry  }
+		add_to_variable = { ReligionTotal = ReligionChineseSalvationist  }
+		add_to_variable = { ReligionTotal = ReligionMessianic  }
 		add_to_variable = { ReligionTotal = ReligionOther  }
 		
 	if = { #Anti divide by 0
@@ -303,21 +303,21 @@ normalize_religion = {
 		#Indo-Iranian#
 		divide_variable = { ReligionHindu = ReligionValueRatio }
 		divide_variable = { ReligionSikh = ReligionValueRatio }
-		divide_variable = { ReligionJain = ReligionValueRatio }
+		divide_variable = { ReligionNavayana = ReligionValueRatio }
 		divide_variable = { ReligionTraditionalIranian = ReligionValueRatio }
 		#Irreligious#
 		divide_variable = { ReligionIrreligious = ReligionValueRatio }
 		divide_variable = { ReligionAtheist = ReligionValueRatio }
 		#Minor/Esoteric#
-		divide_variable = { ReligionSpiritual = ReligionValueRatio }
+		divide_variable = { ReligionZionistChristian = ReligionValueRatio }
 		divide_variable = { ReligionStatist = ReligionValueRatio }
 		divide_variable = { ReligionCultistSafe = ReligionValueRatio }
 		divide_variable = { ReligionCultistFatal = ReligionValueRatio }
 		divide_variable = { ReligionTraditionalAfrican = ReligionValueRatio  }
 		divide_variable = { ReligionTraditionalAmerican = ReligionValueRatio  }
 		divide_variable = { ReligionTraditionalOceanic  = ReligionValueRatio }
-		divide_variable = { ReligionNaturalist = ReligionValueRatio  }
-		divide_variable = { ReligionFurry = ReligionValueRatio }
+		divide_variable = { ReligionChineseSalvationist = ReligionValueRatio  }
+		divide_variable = { ReligionMessianic = ReligionValueRatio }
 		divide_variable = { ReligionOther = ReligionValueRatio }
 	
 		#Christian#
@@ -342,21 +342,21 @@ normalize_religion = {
 		#Indo-Iranian#
 		add_to_variable = { ROOT.ReligionHinduTotal = ReligionHindu }
 		add_to_variable = { ROOT.ReligionSikhTotal = ReligionSikh }
-		add_to_variable = { ROOT.ReligionJainTotal = ReligionJain }
+		add_to_variable = { ROOT.ReligionNavayanaTotal = ReligionNavayana }
 		add_to_variable = { ROOT.ReligionTraditionalIranianTotal = ReligionTraditionalIranian }
 		#Irreligious#
 		add_to_variable = { ROOT.ReligionIrreligiousTotal = ReligionIrreligious }
 		add_to_variable = { ROOT.ReligionAtheistTotal = ReligionAtheist }
 		#Minor/Esoteric#
-		add_to_variable = { ROOT.ReligionSpiritualTotal = ReligionSpiritual }
+		add_to_variable = { ROOT.ReligionZionistChristianTotal = ReligionZionistChristian }
 		add_to_variable = { ROOT.ReligionStatistTotal = ReligionStatist }
 		add_to_variable = { ROOT.ReligionCultistSafeTotal = ReligionCultistSafe }
 		add_to_variable = { ROOT.ReligionCultistFatalTotal = ReligionCultistFatal }
 		add_to_variable = { ReligionTotal = ReligionTraditionalAfrican  }
 		add_to_variable = { ReligionTotal = ReligionTraditionalAmerican  }
 		add_to_variable = { ReligionTotal = ReligionTraditionalOceanic  }
-		add_to_variable = { ReligionTotal = ReligionNaturalist  }
-		add_to_variable = { ROOT.ReligionFurryTotal = ReligionFurry }
+		add_to_variable = { ReligionTotal = ReligionChineseSalvationist  }
+		add_to_variable = { ROOT.ReligionMessianicTotal = ReligionMessianic }
 		add_to_variable = { ROOT.ReligionOtherTotal = ReligionOther }
 }
 initialize_1949_setup = {
@@ -761,10 +761,10 @@ major_religion_placeholder = {
 			#Indo-Iranian#
 			check_variable = { ReligionChristianityCatholicTotal > ReligionHinduTotal }
 			check_variable = { ReligionChristianityCatholicTotal > ReligionSikhTotal }
-			check_variable = { ReligionChristianityCatholicTotal > ReligionJainTotal }
+			check_variable = { ReligionChristianityCatholicTotal > ReligionNavayanaTotal }
 			check_variable = { ReligionChristianityCatholicTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionChristianityCatholicTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionChristianityCatholicTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionChristianityCatholicTotal > ReligionStatistTotal }
 			check_variable = { ReligionChristianityCatholicTotal > ReligionCultistSafeTotal }
 			check_variable = { ReligionChristianityCatholicTotal > ReligionCultistFatalTotal }
@@ -772,7 +772,7 @@ major_religion_placeholder = {
 			check_variable = { ReligionChristianityCatholicTotal > ReligionTraditionalAmericanTotal }
 			check_variable = { ReligionChristianityCatholicTotal > ReligionTraditionalOceanicTotal }
 			check_variable = { ReligionChristianityCatholicTotal > ReligionNautralistTotal }
-			check_variable = { ReligionChristianityCatholicTotal > ReligionFurryTotal }
+			check_variable = { ReligionChristianityCatholicTotal > ReligionMessianicTotal }
 			check_variable = { ReligionChristianityCatholicTotal > ReligionOtherTotal }
 		}
 		set_country_flag = PR_ChristianityCatholic
@@ -800,10 +800,10 @@ major_religion_placeholder = {
 			#Indo-Iranian#
 			check_variable = { ReligionChristianityProtestantTotal > ReligionHinduTotal }
 			check_variable = { ReligionChristianityProtestantTotal > ReligionSikhTotal }
-			check_variable = { ReligionChristianityProtestantTotal > ReligionJainTotal }
+			check_variable = { ReligionChristianityProtestantTotal > ReligionNavayanaTotal }
 			check_variable = { ReligionChristianityProtestantTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionChristianityProtestantTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionChristianityProtestantTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionChristianityProtestantTotal > ReligionStatistTotal }
 			check_variable = { ReligionChristianityProtestantTotal > ReligionCultistSafeTotal }
 			check_variable = { ReligionChristianityProtestantTotal > ReligionCultistFatalTotal }
@@ -811,7 +811,7 @@ major_religion_placeholder = {
 			check_variable = { ReligionChristianityProtestantTotal > ReligionTraditionalAmericanTotal }
 			check_variable = { ReligionChristianityProtestantTotal > ReligionTraditionalOceanicTotal }
 			check_variable = { ReligionChristianityProtestantTotal > ReligionNautralistTotal }
-			check_variable = { ReligionChristianityProtestantTotal > ReligionFurryTotal }
+			check_variable = { ReligionChristianityProtestantTotal > ReligionMessianicTotal }
 			check_variable = { ReligionChristianityProtestantTotal > ReligionOtherTotal }
 		}
 		set_country_flag = PR_ChristianityProtestant
@@ -839,10 +839,10 @@ major_religion_placeholder = {
 			#Indo-Iranian#
 			check_variable = { ReligionChristianityOrthodoxTotal > ReligionHinduTotal }
 			check_variable = { ReligionChristianityOrthodoxTotal > ReligionSikhTotal }
-			check_variable = { ReligionChristianityOrthodoxTotal > ReligionJainTotal }
+			check_variable = { ReligionChristianityOrthodoxTotal > ReligionNavayanaTotal }
 			check_variable = { ReligionChristianityOrthodoxTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionChristianityOrthodoxTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionChristianityOrthodoxTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionChristianityOrthodoxTotal > ReligionStatistTotal }
 			check_variable = { ReligionChristianityOrthodoxTotal > ReligionCultistSafeTotal }
 			check_variable = { ReligionChristianityOrthodoxTotal > ReligionCultistFatalTotal }
@@ -850,7 +850,7 @@ major_religion_placeholder = {
 			check_variable = { ReligionChristianityOrthodoxTotal > ReligionTraditionalAmericanTotal }
 			check_variable = { ReligionChristianityOrthodoxTotal > ReligionTraditionalOceanicTotal }
 			check_variable = { ReligionChristianityOrthodoxTotal > ReligionNautralistTotal }
-			check_variable = { ReligionChristianityOrthodoxTotal > ReligionFurryTotal }
+			check_variable = { ReligionChristianityOrthodoxTotal > ReligionMessianicTotal }
 			check_variable = { ReligionChristianityOrthodoxTotal > ReligionOtherTotal }
 		}
 		set_country_flag = PR_ChristianityOrthodox
@@ -878,10 +878,10 @@ major_religion_placeholder = {
 			#Indo-Iranian#
 			check_variable = { ReligionChristianityOrientalTotal > ReligionHinduTotal }
 			check_variable = { ReligionChristianityOrientalTotal > ReligionSikhTotal }
-			check_variable = { ReligionChristianityOrientalTotal > ReligionJainTotal }
+			check_variable = { ReligionChristianityOrientalTotal > ReligionNavayanaTotal }
 			check_variable = { ReligionChristianityOrientalTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionChristianityOrientalTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionChristianityOrientalTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionChristianityOrientalTotal > ReligionStatistTotal }
 			check_variable = { ReligionChristianityOrientalTotal > ReligionCultistSafeTotal }
 			check_variable = { ReligionChristianityOrientalTotal > ReligionCultistFatalTotal }
@@ -889,7 +889,7 @@ major_religion_placeholder = {
 			check_variable = { ReligionChristianityOrientalTotal > ReligionTraditionalAmericanTotal }
 			check_variable = { ReligionChristianityOrientalTotal > ReligionTraditionalOceanicTotal }
 			check_variable = { ReligionChristianityOrientalTotal > ReligionNautralistTotal }
-			check_variable = { ReligionChristianityOrientalTotal > ReligionFurryTotal }
+			check_variable = { ReligionChristianityOrientalTotal > ReligionMessianicTotal }
 			check_variable = { ReligionChristianityOrientalTotal > ReligionOtherTotal }
 		}
 		set_country_flag = PR_ChristianityOriental
@@ -917,10 +917,10 @@ major_religion_placeholder = {
 			#Indo-Iranian#
 			check_variable = { ReligionJudaismTotal > ReligionHinduTotal }
 			check_variable = { ReligionJudaismTotal > ReligionSikhTotal }
-			check_variable = { ReligionJudaismTotal > ReligionJainTotal }
+			check_variable = { ReligionJudaismTotal > ReligionNavayanaTotal }
 			check_variable = { ReligionJudaismTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionJudaismTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionJudaismTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionJudaismTotal > ReligionStatistTotal }
 			check_variable = { ReligionJudaismTotal > ReligionCultistSafeTotal }
 			check_variable = { ReligionJudaismTotal > ReligionCultistFatalTotal }
@@ -928,7 +928,7 @@ major_religion_placeholder = {
 			check_variable = { ReligionJudaismTotal > ReligionTraditionalAmericanTotal }
 			check_variable = { ReligionJudaismTotal > ReligionTraditionalOceanicTotal }
 			check_variable = { ReligionJudaismTotal > ReligionNautralistTotal }
-			check_variable = { ReligionJudaismTotal > ReligionFurryTotal }
+			check_variable = { ReligionJudaismTotal > ReligionMessianicTotal }
 			check_variable = { ReligionJudaismTotal > ReligionOtherTotal }
 		}
 		set_country_flag = PR_Judaism
@@ -956,10 +956,10 @@ major_religion_placeholder = {
 			#Indo-Iranian#
 			check_variable = { ReligionIslamSunniTotal > ReligionHinduTotal }
 			check_variable = { ReligionIslamSunniTotal > ReligionSikhTotal }
-			check_variable = { ReligionIslamSunniTotal > ReligionJainTotal }
+			check_variable = { ReligionIslamSunniTotal > ReligionNavayanaTotal }
 			check_variable = { ReligionIslamSunniTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionIslamSunniTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionIslamSunniTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionIslamSunniTotal > ReligionStatistTotal }
 			check_variable = { ReligionIslamSunniTotal > ReligionCultistSafeTotal }
 			check_variable = { ReligionIslamSunniTotal > ReligionCultistFatalTotal }
@@ -967,7 +967,7 @@ major_religion_placeholder = {
 			check_variable = { ReligionIslamSunniTotal > ReligionTraditionalAmericanTotal }
 			check_variable = { ReligionIslamSunniTotal > ReligionTraditionalOceanicTotal }
 			check_variable = { ReligionIslamSunniTotal > ReligionNautralistTotal }
-			check_variable = { ReligionIslamSunniTotal > ReligionFurryTotal }
+			check_variable = { ReligionIslamSunniTotal > ReligionMessianicTotal }
 			check_variable = { ReligionIslamSunniTotal > ReligionOtherTotal }
 		}
 		set_country_flag = PR_IslamSunni
@@ -995,10 +995,10 @@ major_religion_placeholder = {
 			#Indo-Iranian#
 			check_variable = { ReligionIslamShiaTotal > ReligionHinduTotal }
 			check_variable = { ReligionIslamShiaTotal > ReligionSikhTotal }
-			check_variable = { ReligionIslamShiaTotal > ReligionJainTotal }
+			check_variable = { ReligionIslamShiaTotal > ReligionNavayanaTotal }
 			check_variable = { ReligionIslamShiaTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionIslamShiaTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionIslamShiaTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionIslamShiaTotal > ReligionStatistTotal }
 			check_variable = { ReligionIslamShiaTotal > ReligionCultistSafeTotal }
 			check_variable = { ReligionIslamShiaTotal > ReligionCultistFatalTotal }
@@ -1006,7 +1006,7 @@ major_religion_placeholder = {
 			check_variable = { ReligionIslamShiaTotal > ReligionTraditionalAmericanTotal }
 			check_variable = { ReligionIslamShiaTotal > ReligionTraditionalOceanicTotal }
 			check_variable = { ReligionIslamShiaTotal > ReligionNautralistTotal }
-			check_variable = { ReligionIslamShiaTotal > ReligionFurryTotal }
+			check_variable = { ReligionIslamShiaTotal > ReligionMessianicTotal }
 			check_variable = { ReligionIslamShiaTotal > ReligionOtherTotal }
 		}
 		set_country_flag = PR_IslamShia
@@ -1034,10 +1034,10 @@ major_religion_placeholder = {
 			#Indo-Iranian#
 			check_variable = { ReligionIslamIbadiTotal > ReligionHinduTotal }
 			check_variable = { ReligionIslamIbadiTotal > ReligionSikhTotal }
-			check_variable = { ReligionIslamIbadiTotal > ReligionJainTotal }
+			check_variable = { ReligionIslamIbadiTotal > ReligionNavayanaTotal }
 			check_variable = { ReligionIslamIbadiTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionIslamIbadiTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionIslamIbadiTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionIslamIbadiTotal > ReligionStatistTotal }
 			check_variable = { ReligionIslamIbadiTotal > ReligionCultistSafeTotal }
 			check_variable = { ReligionIslamIbadiTotal > ReligionCultistFatalTotal }
@@ -1045,7 +1045,7 @@ major_religion_placeholder = {
 			check_variable = { ReligionIslamIbadiTotal > ReligionTraditionalAmericanTotal }
 			check_variable = { ReligionIslamIbadiTotal > ReligionTraditionalOceanicTotal }
 			check_variable = { ReligionIslamIbadiTotal > ReligionNautralistTotal }
-			check_variable = { ReligionIslamIbadiTotal > ReligionFurryTotal }
+			check_variable = { ReligionIslamIbadiTotal > ReligionMessianicTotal }
 			check_variable = { ReligionIslamIbadiTotal > ReligionOtherTotal }
 		}
 		set_country_flag = PR_IslamIbadi
@@ -1073,10 +1073,10 @@ major_religion_placeholder = {
 			#Indo-Iranian#
 			check_variable = { ReligionBuddhismVajrayanaTotal > ReligionHinduTotal }
 			check_variable = { ReligionBuddhismVajrayanaTotal > ReligionSikhTotal }
-			check_variable = { ReligionBuddhismVajrayanaTotal > ReligionJainTotal }
+			check_variable = { ReligionBuddhismVajrayanaTotal > ReligionNavayanaTotal }
 			check_variable = { ReligionBuddhismVajrayanaTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionBuddhismVajrayanaTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionBuddhismVajrayanaTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionBuddhismVajrayanaTotal > ReligionStatistTotal }
 			check_variable = { ReligionBuddhismVajrayanaTotal > ReligionCultistSafeTotal }
 			check_variable = { ReligionBuddhismVajrayanaTotal > ReligionCultistFatalTotal }
@@ -1084,7 +1084,7 @@ major_religion_placeholder = {
 			check_variable = { ReligionBuddhismVajrayanaTotal > ReligionTraditionalAmericanTotal }
 			check_variable = { ReligionBuddhismVajrayanaTotal > ReligionTraditionalOceanicTotal }
 			check_variable = { ReligionBuddhismVajrayanaTotal > ReligionNautralistTotal }
-			check_variable = { ReligionBuddhismVajrayanaTotal > ReligionFurryTotal }
+			check_variable = { ReligionBuddhismVajrayanaTotal > ReligionMessianicTotal }
 			check_variable = { ReligionBuddhismVajrayanaTotal > ReligionOtherTotal }
 		}
 		set_country_flag = PR_BuddhismVajrayana
@@ -1112,10 +1112,10 @@ major_religion_placeholder = {
 			#Indo-Iranian#
 			check_variable = { ReligionBuddhismMahayanaTotal > ReligionHinduTotal }
 			check_variable = { ReligionBuddhismMahayanaTotal > ReligionSikhTotal }
-			check_variable = { ReligionBuddhismMahayanaTotal > ReligionJainTotal }
+			check_variable = { ReligionBuddhismMahayanaTotal > ReligionNavayanaTotal }
 			check_variable = { ReligionBuddhismMahayanaTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionBuddhismMahayanaTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionBuddhismMahayanaTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionBuddhismMahayanaTotal > ReligionStatistTotal }
 			check_variable = { ReligionBuddhismMahayanaTotal > ReligionCultistSafeTotal }
 			check_variable = { ReligionBuddhismMahayanaTotal > ReligionCultistFatalTotal }
@@ -1123,7 +1123,7 @@ major_religion_placeholder = {
 			check_variable = { ReligionBuddhismMahayanaTotal > ReligionTraditionalAmericanTotal }
 			check_variable = { ReligionBuddhismMahayanaTotal > ReligionTraditionalOceanicTotal }
 			check_variable = { ReligionBuddhismMahayanaTotal > ReligionNautralistTotal }
-			check_variable = { ReligionBuddhismMahayanaTotal > ReligionFurryTotal }
+			check_variable = { ReligionBuddhismMahayanaTotal > ReligionMessianicTotal }
 			check_variable = { ReligionBuddhismMahayanaTotal > ReligionOtherTotal }
 		}
 		set_country_flag = PR_BuddhismMahayana
@@ -1151,10 +1151,10 @@ major_religion_placeholder = {
 			#Indo-Iranian#
 			check_variable = { ReligionBuddhismTherevedaTotal > ReligionHinduTotal }
 			check_variable = { ReligionBuddhismTherevedaTotal > ReligionSikhTotal }
-			check_variable = { ReligionBuddhismTherevedaTotal > ReligionJainTotal }
+			check_variable = { ReligionBuddhismTherevedaTotal > ReligionNavayanaTotal }
 			check_variable = { ReligionBuddhismTherevedaTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionBuddhismTherevedaTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionBuddhismTherevedaTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionBuddhismTherevedaTotal > ReligionStatistTotal }
 			check_variable = { ReligionBuddhismTherevedaTotal > ReligionCultistSafeTotal }
 			check_variable = { ReligionBuddhismTherevedaTotal > ReligionCultistFatalTotal }
@@ -1162,7 +1162,7 @@ major_religion_placeholder = {
 			check_variable = { ReligionBuddhismTherevedaTotal > ReligionTraditionalAmericanTotal }
 			check_variable = { ReligionBuddhismTherevedaTotal > ReligionTraditionalOceanicTotal }
 			check_variable = { ReligionBuddhismTherevedaTotal > ReligionNautralistTotal }
-			check_variable = { ReligionBuddhismTherevedaTotal > ReligionFurryTotal }
+			check_variable = { ReligionBuddhismTherevedaTotal > ReligionMessianicTotal }
 			check_variable = { ReligionBuddhismTherevedaTotal > ReligionOtherTotal }
 		}
 		set_country_flag = PR_BuddhismThereveda
@@ -1190,10 +1190,10 @@ major_religion_placeholder = {
 			#Indo-Iranian#
 			check_variable = { ReligionShintoTotal > ReligionHinduTotal }
 			check_variable = { ReligionShintoTotal > ReligionSikhTotal }
-			check_variable = { ReligionShintoTotal > ReligionJainTotal }
+			check_variable = { ReligionShintoTotal > ReligionNavayanaTotal }
 			check_variable = { ReligionShintoTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionShintoTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionShintoTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionShintoTotal > ReligionStatistTotal }
 			check_variable = { ReligionShintoTotal > ReligionCultistSafeTotal }
 			check_variable = { ReligionShintoTotal > ReligionCultistFatalTotal }
@@ -1201,7 +1201,7 @@ major_religion_placeholder = {
 			check_variable = { ReligionShintoTotal > ReligionTraditionalAmericanTotal }
 			check_variable = { ReligionShintoTotal > ReligionTraditionalOceanicTotal }
 			check_variable = { ReligionShintoTotal > ReligionNautralistTotal }
-			check_variable = { ReligionShintoTotal > ReligionFurryTotal }
+			check_variable = { ReligionShintoTotal > ReligionMessianicTotal }
 			check_variable = { ReligionShintoTotal > ReligionOtherTotal }
 		}
 		set_country_flag = PR_Shinto
@@ -1229,10 +1229,10 @@ major_religion_placeholder = {
 			#Indo-Iranian#
 			check_variable = { ReligionTraditionalEasternTotal > ReligionHinduTotal }
 			check_variable = { ReligionTraditionalEasternTotal > ReligionSikhTotal }
-			check_variable = { ReligionTraditionalEasternTotal > ReligionJainTotal }
+			check_variable = { ReligionTraditionalEasternTotal > ReligionNavayanaTotal }
 			check_variable = { ReligionTraditionalEasternTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionTraditionalEasternTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionTraditionalEasternTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionTraditionalEasternTotal > ReligionStatistTotal }
 			check_variable = { ReligionTraditionalEasternTotal > ReligionCultistSafeTotal }
 			check_variable = { ReligionTraditionalEasternTotal > ReligionCultistFatalTotal }
@@ -1240,7 +1240,7 @@ major_religion_placeholder = {
 			check_variable = { ReligionTraditionalEasternTotal > ReligionTraditionalAmericanTotal }
 			check_variable = { ReligionTraditionalEasternTotal > ReligionTraditionalOceanicTotal }
 			check_variable = { ReligionTraditionalEasternTotal > ReligionNautralistTotal }
-			check_variable = { ReligionTraditionalEasternTotal > ReligionFurryTotal }
+			check_variable = { ReligionTraditionalEasternTotal > ReligionMessianicTotal }
 			check_variable = { ReligionTraditionalEasternTotal > ReligionOtherTotal }
 		}
 		set_country_flag = PR_TraditionalEastern
@@ -1268,10 +1268,10 @@ major_religion_placeholder = {
 			#Indo-Iranian#
 			check_variable = { ReligionConfucianTotal > ReligionHinduTotal }
 			check_variable = { ReligionConfucianTotal > ReligionSikhTotal }
-			check_variable = { ReligionConfucianTotal > ReligionJainTotal }
+			check_variable = { ReligionConfucianTotal > ReligionNavayanaTotal }
 			check_variable = { ReligionConfucianTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionConfucianTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionConfucianTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionConfucianTotal > ReligionStatistTotal }
 			check_variable = { ReligionConfucianTotal > ReligionCultistSafeTotal }
 			check_variable = { ReligionConfucianTotal > ReligionCultistFatalTotal }
@@ -1279,7 +1279,7 @@ major_religion_placeholder = {
 			check_variable = { ReligionConfucianTotal > ReligionTraditionalAmericanTotal }
 			check_variable = { ReligionConfucianTotal > ReligionTraditionalOceanicTotal }
 			check_variable = { ReligionConfucianTotal > ReligionNautralistTotal }
-			check_variable = { ReligionConfucianTotal > ReligionFurryTotal }
+			check_variable = { ReligionConfucianTotal > ReligionMessianicTotal }
 			check_variable = { ReligionConfucianTotal > ReligionOtherTotal }
 		}
 		set_country_flag = PR_Confucian
@@ -1307,10 +1307,10 @@ major_religion_placeholder = {
 			check_variable = { ReligionHinduTotal > ReligionConfucianTotal }
 			#Indo-Iranian#
 			check_variable = { ReligionHinduTotal > ReligionSikhTotal }
-			check_variable = { ReligionHinduTotal > ReligionJainTotal }
+			check_variable = { ReligionHinduTotal > ReligionNavayanaTotal }
 			check_variable = { ReligionHinduTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionHinduTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionHinduTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionHinduTotal > ReligionStatistTotal }
 			check_variable = { ReligionHinduTotal > ReligionCultistSafeTotal }
 			check_variable = { ReligionHinduTotal > ReligionCultistFatalTotal }
@@ -1318,7 +1318,7 @@ major_religion_placeholder = {
 			check_variable = { ReligionHinduTotal > ReligionTraditionalAmericanTotal }
 			check_variable = { ReligionHinduTotal > ReligionTraditionalOceanicTotal }
 			check_variable = { ReligionHinduTotal > ReligionNautralistTotal }
-			check_variable = { ReligionHinduTotal > ReligionFurryTotal }
+			check_variable = { ReligionHinduTotal > ReligionMessianicTotal }
 			check_variable = { ReligionHinduTotal > ReligionOtherTotal }
 		}
 		set_country_flag = PR_Hindu
@@ -1346,10 +1346,10 @@ major_religion_placeholder = {
 			check_variable = { ReligionSikhTotal > ReligionConfucianTotal }
 			#Indo-Iranian#
 			check_variable = { ReligionSikhTotal > ReligionHinduTotal }
-			check_variable = { ReligionSikhTotal > ReligionJainTotal }
+			check_variable = { ReligionSikhTotal > ReligionNavayanaTotal }
 			check_variable = { ReligionSikhTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionSikhTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionSikhTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionSikhTotal > ReligionStatistTotal }
 			check_variable = { ReligionSikhTotal > ReligionCultistSafeTotal }
 			check_variable = { ReligionSikhTotal > ReligionCultistFatalTotal }
@@ -1357,7 +1357,7 @@ major_religion_placeholder = {
 			check_variable = { ReligionSikhTotal > ReligionTraditionalAmericanTotal }
 			check_variable = { ReligionSikhTotal > ReligionTraditionalOceanicTotal }
 			check_variable = { ReligionSikhTotal > ReligionNautralistTotal }
-			check_variable = { ReligionSikhTotal > ReligionFurryTotal }
+			check_variable = { ReligionSikhTotal > ReligionMessianicTotal }
 			check_variable = { ReligionSikhTotal > ReligionOtherTotal }
 		}
 		set_country_flag = PR_Sikh
@@ -1365,41 +1365,41 @@ major_religion_placeholder = {
 	else_if = {
 		limit = {
 			#Christian#
-			check_variable = { ReligionJainTotal > ReligionChristianityCatholicTotal }
-			check_variable = { ReligionJainTotal > ReligionChristianityProtestantTotal }
-			check_variable = { ReligionJainTotal > ReligionChristianityOrthodoxTotal }
-			check_variable = { ReligionJainTotal > ReligionChristianityOrientalTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionChristianityCatholicTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionChristianityProtestantTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionChristianityOrthodoxTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionChristianityOrientalTotal }
 			#Judaic#
-			check_variable = { ReligionJainTotal > ReligionJudaismTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionJudaismTotal }
 			#Islamic#
-			check_variable = { ReligionJainTotal > ReligionIslamSunniTotal }
-			check_variable = { ReligionJainTotal > ReligionIslamShiaTotal }
-			check_variable = { ReligionJainTotal > ReligionIslamIbadiTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionIslamSunniTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionIslamShiaTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionIslamIbadiTotal }
 			#Buddhism#
-			check_variable = { ReligionJainTotal > ReligionBuddhismVajrayanaTotal }
-			check_variable = { ReligionJainTotal > ReligionBuddhismMahayanaTotal }
-			check_variable = { ReligionJainTotal > ReligionBuddhismTherevedaTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionBuddhismVajrayanaTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionBuddhismMahayanaTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionBuddhismTherevedaTotal }
 			#Eastern#
-			check_variable = { ReligionJainTotal > ReligionShintoTotal }
-			check_variable = { ReligionJainTotal > ReligionTraditionalEasternTotal }
-			check_variable = { ReligionJainTotal > ReligionConfucianTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionShintoTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionTraditionalEasternTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionConfucianTotal }
 			#Indo-Iranian#
-			check_variable = { ReligionJainTotal > ReligionHinduTotal }
-			check_variable = { ReligionJainTotal > ReligionSikhTotal }
-			check_variable = { ReligionJainTotal > ReligionTraditionalIranianTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionHinduTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionSikhTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionJainTotal > ReligionSpiritualTotal }
-			check_variable = { ReligionJainTotal > ReligionStatistTotal }
-			check_variable = { ReligionJainTotal > ReligionCultistSafeTotal }
-			check_variable = { ReligionJainTotal > ReligionCultistFatalTotal }
-			check_variable = { ReligionJainTotal > ReligionTraditionalAfricanTotal }
-			check_variable = { ReligionJainTotal > ReligionTraditionalAmericanTotal }
-			check_variable = { ReligionJainTotal > ReligionTraditionalOceanicTotal }
-			check_variable = { ReligionJainTotal > ReligionNautralistTotal }
-			check_variable = { ReligionJainTotal > ReligionFurryTotal }
-			check_variable = { ReligionJainTotal > ReligionOtherTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionZionistChristianTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionStatistTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionCultistSafeTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionCultistFatalTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionTraditionalAfricanTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionTraditionalAmericanTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionTraditionalOceanicTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionNautralistTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionMessianicTotal }
+			check_variable = { ReligionNavayanaTotal > ReligionOtherTotal }
 		}
-		set_country_flag = PR_Jain
+		set_country_flag = PR_Navayana
 	}
 	else_if = {
 		limit = {
@@ -1425,9 +1425,9 @@ major_religion_placeholder = {
 			#Indo-Iranian#
 			check_variable = { ReligionTraditionalIranianTotal > ReligionHinduTotal }
 			check_variable = { ReligionTraditionalIranianTotal > ReligionSikhTotal }
-			check_variable = { ReligionTraditionalIranianTotal > ReligionJainTotal }
+			check_variable = { ReligionTraditionalIranianTotal > ReligionNavayanaTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionTraditionalIranianTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionTraditionalIranianTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionTraditionalIranianTotal > ReligionStatistTotal }
 			check_variable = { ReligionTraditionalIranianTotal > ReligionCultistSafeTotal }
 			check_variable = { ReligionTraditionalIranianTotal > ReligionCultistFatalTotal }
@@ -1435,7 +1435,7 @@ major_religion_placeholder = {
 			check_variable = { ReligionTraditionalIranianTotal > ReligionTraditionalAmericanTotal }
 			check_variable = { ReligionTraditionalIranianTotal > ReligionTraditionalOceanicTotal }
 			check_variable = { ReligionTraditionalIranianTotal > ReligionNautralistTotal }
-			check_variable = { ReligionTraditionalIranianTotal > ReligionFurryTotal }
+			check_variable = { ReligionTraditionalIranianTotal > ReligionMessianicTotal }
 			check_variable = { ReligionTraditionalIranianTotal > ReligionOtherTotal }
 		}
 		set_country_flag = PR_TraditionalIranian
@@ -1443,41 +1443,41 @@ major_religion_placeholder = {
 	else_if = {
 		limit = {
 			#Christian#
-			check_variable = { ReligionSpiritualTotal > ReligionChristianityCatholicTotal }
-			check_variable = { ReligionSpiritualTotal > ReligionChristianityProtestantTotal }
-			check_variable = { ReligionSpiritualTotal > ReligionChristianityOrthodoxTotal }
-			check_variable = { ReligionSpiritualTotal > ReligionChristianityOrientalTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionChristianityCatholicTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionChristianityProtestantTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionChristianityOrthodoxTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionChristianityOrientalTotal }
 			#Judaic#
-			check_variable = { ReligionSpiritualTotal > ReligionJudaismTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionJudaismTotal }
 			#Islamic#
-			check_variable = { ReligionSpiritualTotal > ReligionIslamSunniTotal }
-			check_variable = { ReligionSpiritualTotal > ReligionIslamShiaTotal }
-			check_variable = { ReligionSpiritualTotal > ReligionIslamIbadiTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionIslamSunniTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionIslamShiaTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionIslamIbadiTotal }
 			#Buddhism#
-			check_variable = { ReligionSpiritualTotal > ReligionBuddhismVajrayanaTotal }
-			check_variable = { ReligionSpiritualTotal > ReligionBuddhismMahayanaTotal }
-			check_variable = { ReligionSpiritualTotal > ReligionBuddhismTherevedaTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionBuddhismVajrayanaTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionBuddhismMahayanaTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionBuddhismTherevedaTotal }
 			#Eastern#
-			check_variable = { ReligionSpiritualTotal > ReligionShintoTotal }
-			check_variable = { ReligionSpiritualTotal > ReligionTraditionalEasternTotal }
-			check_variable = { ReligionSpiritualTotal > ReligionConfucianTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionShintoTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionTraditionalEasternTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionConfucianTotal }
 			#Indo-Iranian#
-			check_variable = { ReligionSpiritualTotal > ReligionHinduTotal }
-			check_variable = { ReligionSpiritualTotal > ReligionSikhTotal }
-			check_variable = { ReligionSpiritualTotal > ReligionJainTotal }
-			check_variable = { ReligionSpiritualTotal > ReligionTraditionalIranianTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionHinduTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionSikhTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionNavayanaTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionSpiritualTotal > ReligionStatistTotal }
-			check_variable = { ReligionSpiritualTotal > ReligionCultistSafeTotal }
-			check_variable = { ReligionSpiritualTotal > ReligionCultistFatalTotal }
-			check_variable = { ReligionSpiritualTotal > ReligionTraditionalAfricanTotal }
-			check_variable = { ReligionSpiritualTotal > ReligionTraditionalAmericanTotal }
-			check_variable = { ReligionSpiritualTotal > ReligionTraditionalOceanicTotal }
-			check_variable = { ReligionSpiritualTotal > ReligionNautralistTotal }
-			check_variable = { ReligionSpiritualTotal > ReligionFurryTotal }
-			check_variable = { ReligionSpiritualTotal > ReligionOtherTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionStatistTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionCultistSafeTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionCultistFatalTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionTraditionalAfricanTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionTraditionalAmericanTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionTraditionalOceanicTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionNautralistTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionMessianicTotal }
+			check_variable = { ReligionZionistChristianTotal > ReligionOtherTotal }
 		}
-		set_country_flag = PR_Spiritual
+		set_country_flag = PR_ZionistChristian
 	}
 	else_if = {
 		limit = {
@@ -1503,17 +1503,17 @@ major_religion_placeholder = {
 			#Indo-Iranian#
 			check_variable = { ReligionStatistTotal > ReligionHinduTotal }
 			check_variable = { ReligionStatistTotal > ReligionSikhTotal }
-			check_variable = { ReligionStatistTotal > ReligionJainTotal }
+			check_variable = { ReligionStatistTotal > ReligionNavayanaTotal }
 			check_variable = { ReligionStatistTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionStatistTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionStatistTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionStatistTotal > ReligionCultistSafeTotal }
 			check_variable = { ReligionStatistTotal > ReligionCultistFatalTotal }
 			check_variable = { ReligionStatistTotal > ReligionTraditionalAfricanTotal }
 			check_variable = { ReligionStatistTotal > ReligionTraditionalAmericanTotal }
 			check_variable = { ReligionStatistTotal > ReligionTraditionalOceanicTotal }
 			check_variable = { ReligionStatistTotal > ReligionNautralistTotal }
-			check_variable = { ReligionStatistTotal > ReligionFurryTotal }
+			check_variable = { ReligionStatistTotal > ReligionMessianicTotal }
 			check_variable = { ReligionStatistTotal > ReligionOtherTotal }
 		}
 		set_country_flag = PR_Statist
@@ -1542,17 +1542,17 @@ major_religion_placeholder = {
 			#Indo-Iranian#
 			check_variable = { ReligionCultistSafeTotal > ReligionHinduTotal }
 			check_variable = { ReligionCultistSafeTotal > ReligionSikhTotal }
-			check_variable = { ReligionCultistSafeTotal > ReligionJainTotal }
+			check_variable = { ReligionCultistSafeTotal > ReligionNavayanaTotal }
 			check_variable = { ReligionCultistSafeTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionCultistSafeTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionCultistSafeTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionCultistSafeTotal > ReligionStatistTotal }
 			check_variable = { ReligionCultistSafeTotal > ReligionCultistFatalTotal }
 			check_variable = { ReligionCultistSafeTotal > ReligionTraditionalAfricanTotal }
 			check_variable = { ReligionCultistSafeTotal > ReligionTraditionalAmericanTotal }
 			check_variable = { ReligionCultistSafeTotal > ReligionTraditionalOceanicTotal }
 			check_variable = { ReligionCultistSafeTotal > ReligionNautralistTotal }
-			check_variable = { ReligionCultistSafeTotal > ReligionFurryTotal }
+			check_variable = { ReligionCultistSafeTotal > ReligionMessianicTotal }
 			check_variable = { ReligionCultistSafeTotal > ReligionOtherTotal }
 		}
 		set_country_flag = PR_CultistSafe
@@ -1581,17 +1581,17 @@ major_religion_placeholder = {
 			#Indo-Iranian#
 			check_variable = { ReligionCultistFatalTotal > ReligionHinduTotal }
 			check_variable = { ReligionCultistFatalTotal > ReligionSikhTotal }
-			check_variable = { ReligionCultistFatalTotal > ReligionJainTotal }
+			check_variable = { ReligionCultistFatalTotal > ReligionNavayanaTotal }
 			check_variable = { ReligionCultistFatalTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionCultistFatalTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionCultistFatalTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionCultistFatalTotal > ReligionStatistTotal }
 			check_variable = { ReligionCultistFatalTotal > ReligionCultistSafeTotal }
 			check_variable = { ReligionCultistFatalTotal > ReligionTraditionalAfricanTotal }
 			check_variable = { ReligionCultistFatalTotal > ReligionTraditionalAmericanTotal }
 			check_variable = { ReligionCultistFatalTotal > ReligionTraditionalOceanicTotal }
 			check_variable = { ReligionCultistFatalTotal > ReligionNautralistTotal }
-			check_variable = { ReligionCultistFatalTotal > ReligionFurryTotal }
+			check_variable = { ReligionCultistFatalTotal > ReligionMessianicTotal }
 			check_variable = { ReligionCultistFatalTotal > ReligionOtherTotal }
 		}
 		set_country_flag = PR_CultistFatal
@@ -1620,17 +1620,17 @@ major_religion_placeholder = {
 			#Indo-Iranian#
 			check_variable = { ReligionTraditionalAfricanTotal > ReligionHinduTotal }
 			check_variable = { ReligionTraditionalAfricanTotal > ReligionSikhTotal }
-			check_variable = { ReligionTraditionalAfricanTotal > ReligionJainTotal }
+			check_variable = { ReligionTraditionalAfricanTotal > ReligionNavayanaTotal }
 			check_variable = { ReligionTraditionalAfricanTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionTraditionalAfricanTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionTraditionalAfricanTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionTraditionalAfricanTotal > ReligionStatistTotal }
 			check_variable = { ReligionTraditionalAfricanTotal > ReligionCultistSafeTotal }
 			check_variable = { ReligionTraditionalAfricanTotal > ReligionCultistFatalTotal }
 			check_variable = { ReligionTraditionalAfricanTotal > ReligionTraditionalAmericanTotal }
 			check_variable = { ReligionTraditionalAfricanTotal > ReligionTraditionalOceanicTotal }
 			check_variable = { ReligionTraditionalAfricanTotal > ReligionNautralistTotal }
-			check_variable = { ReligionTraditionalAfricanTotal > ReligionFurryTotal }
+			check_variable = { ReligionTraditionalAfricanTotal > ReligionMessianicTotal }
 			check_variable = { ReligionTraditionalAfricanTotal > ReligionOtherTotal }
 		}
 		set_country_flag = PR_TraditionalAfrican
@@ -1659,17 +1659,17 @@ major_religion_placeholder = {
 			#Indo-Iranian#
 			check_variable = { ReligionTraditionalAmericanTotal > ReligionHinduTotal }
 			check_variable = { ReligionTraditionalAmericanTotal > ReligionSikhTotal }
-			check_variable = { ReligionTraditionalAmericanTotal > ReligionJainTotal }
+			check_variable = { ReligionTraditionalAmericanTotal > ReligionNavayanaTotal }
 			check_variable = { ReligionTraditionalAmericanTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionTraditionalAmericanTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionTraditionalAmericanTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionTraditionalAmericanTotal > ReligionStatistTotal }
 			check_variable = { ReligionTraditionalAmericanTotal > ReligionCultistSafeTotal }
 			check_variable = { ReligionTraditionalAmericanTotal > ReligionCultistFatalTotal }
 			check_variable = { ReligionTraditionalAmericanTotal > ReligionTraditionalAfricanTotal }
 			check_variable = { ReligionTraditionalAmericanTotal > ReligionTraditionalOceanicTotal }
 			check_variable = { ReligionTraditionalAmericanTotal > ReligionNautralistTotal }
-			check_variable = { ReligionTraditionalAmericanTotal > ReligionFurryTotal }
+			check_variable = { ReligionTraditionalAmericanTotal > ReligionMessianicTotal }
 			check_variable = { ReligionTraditionalAmericanTotal > ReligionOtherTotal }
 		}
 		set_country_flag = PR_TraditionalAmerican
@@ -1698,17 +1698,17 @@ major_religion_placeholder = {
 			#Indo-Iranian#
 			check_variable = { ReligionTraditionalOceanicTotal > ReligionHinduTotal }
 			check_variable = { ReligionTraditionalOceanicTotal > ReligionSikhTotal }
-			check_variable = { ReligionTraditionalOceanicTotal > ReligionJainTotal }
+			check_variable = { ReligionTraditionalOceanicTotal > ReligionNavayanaTotal }
 			check_variable = { ReligionTraditionalOceanicTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionTraditionalOceanicTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionTraditionalOceanicTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionTraditionalOceanicTotal > ReligionStatistTotal }
 			check_variable = { ReligionTraditionalOceanicTotal > ReligionCultistSafeTotal }
 			check_variable = { ReligionTraditionalOceanicTotal > ReligionCultistFatalTotal }
 			check_variable = { ReligionTraditionalOceanicTotal > ReligionTraditionalAfricanTotal }
 			check_variable = { ReligionTraditionalOceanicTotal > ReligionTraditionalAmericanTotal }
 			check_variable = { ReligionTraditionalOceanicTotal > ReligionNautralistTotal }
-			check_variable = { ReligionTraditionalOceanicTotal > ReligionFurryTotal }
+			check_variable = { ReligionTraditionalOceanicTotal > ReligionMessianicTotal }
 			check_variable = { ReligionTraditionalOceanicTotal > ReligionOtherTotal }
 		}
 		set_country_flag = PR_TraditionalOceanic
@@ -1716,80 +1716,80 @@ major_religion_placeholder = {
 	else_if = {
 		limit = {
 			#Christian#
-			check_variable = { ReligionNaturalistTotal > ReligionChristianityCatholicTotal }
-			check_variable = { ReligionNaturalistTotal > ReligionChristianityProtestantTotal }
-			check_variable = { ReligionNaturalistTotal > ReligionChristianityOrthodoxTotal }
-			check_variable = { ReligionNaturalistTotal > ReligionChristianityOrientalTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionChristianityCatholicTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionChristianityProtestantTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionChristianityOrthodoxTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionChristianityOrientalTotal }
 			#Judaic#
-			check_variable = { ReligionNaturalistTotal > ReligionJudaismTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionJudaismTotal }
 			#Islamic#
-			check_variable = { ReligionNaturalistTotal > ReligionIslamSunniTotal }
-			check_variable = { ReligionNaturalistTotal > ReligionIslamShiaTotal }
-			check_variable = { ReligionNaturalistTotal > ReligionIslamIbadiTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionIslamSunniTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionIslamShiaTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionIslamIbadiTotal }
 			#Buddhism#
-			check_variable = { ReligionNaturalistTotal > ReligionBuddhismVajrayanaTotal }
-			check_variable = { ReligionNaturalistTotal > ReligionBuddhismMahayanaTotal }
-			check_variable = { ReligionNaturalistTotal > ReligionBuddhismTherevedaTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionBuddhismVajrayanaTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionBuddhismMahayanaTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionBuddhismTherevedaTotal }
 			#Eastern#
-			check_variable = { ReligionNaturalistTotal > ReligionShintoTotal }
-			check_variable = { ReligionNaturalistTotal > ReligionTraditionalEasternTotal }
-			check_variable = { ReligionNaturalistTotal > ReligionConfucianTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionShintoTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionTraditionalEasternTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionConfucianTotal }
 			#Indo-Iranian#
-			check_variable = { ReligionNaturalistTotal > ReligionHinduTotal }
-			check_variable = { ReligionNaturalistTotal > ReligionSikhTotal }
-			check_variable = { ReligionNaturalistTotal > ReligionJainTotal }
-			check_variable = { ReligionNaturalistTotal > ReligionTraditionalIranianTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionHinduTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionSikhTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionNavayanaTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionNaturalistTotal > ReligionSpiritualTotal }
-			check_variable = { ReligionNaturalistTotal > ReligionStatistTotal }
-			check_variable = { ReligionNaturalistTotal > ReligionCultistSafeTotal }
-			check_variable = { ReligionNaturalistTotal > ReligionCultistFatalTotal }
-			check_variable = { ReligionNaturalistTotal > ReligionTraditionalAfricanTotal }
-			check_variable = { ReligionNaturalistTotal > ReligionTraditionalAmericanTotal }
-			check_variable = { ReligionNaturalistTotal > ReligionTraditionalOceanicTotal }
-			check_variable = { ReligionNaturalistTotal > ReligionFurryTotal }
-			check_variable = { ReligionNaturalistTotal > ReligionOtherTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionZionistChristianTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionStatistTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionCultistSafeTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionCultistFatalTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionTraditionalAfricanTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionTraditionalAmericanTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionTraditionalOceanicTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionMessianicTotal }
+			check_variable = { ReligionChineseSalvationistTotal > ReligionOtherTotal }
 		}
-		set_country_flag = PR_Naturalist
+		set_country_flag = PR_ChineseSalvationist
 	}
 	else_if = {
 		limit = {
 			#Christian#
-			check_variable = { ReligionFurryTotal > ReligionChristianityCatholicTotal }
-			check_variable = { ReligionFurryTotal > ReligionChristianityProtestantTotal }
-			check_variable = { ReligionFurryTotal > ReligionChristianityOrthodoxTotal }
-			check_variable = { ReligionFurryTotal > ReligionChristianityOrientalTotal }
+			check_variable = { ReligionMessianicTotal > ReligionChristianityCatholicTotal }
+			check_variable = { ReligionMessianicTotal > ReligionChristianityProtestantTotal }
+			check_variable = { ReligionMessianicTotal > ReligionChristianityOrthodoxTotal }
+			check_variable = { ReligionMessianicTotal > ReligionChristianityOrientalTotal }
 			#Judaic#
-			check_variable = { ReligionFurryTotal > ReligionJudaismTotal }
+			check_variable = { ReligionMessianicTotal > ReligionJudaismTotal }
 			#Islamic#
-			check_variable = { ReligionFurryTotal > ReligionIslamSunniTotal }
-			check_variable = { ReligionFurryTotal > ReligionIslamShiaTotal }
-			check_variable = { ReligionFurryTotal > ReligionIslamIbadiTotal }
+			check_variable = { ReligionMessianicTotal > ReligionIslamSunniTotal }
+			check_variable = { ReligionMessianicTotal > ReligionIslamShiaTotal }
+			check_variable = { ReligionMessianicTotal > ReligionIslamIbadiTotal }
 			#Buddhism#
-			check_variable = { ReligionFurryTotal > ReligionBuddhismVajrayanaTotal }
-			check_variable = { ReligionFurryTotal > ReligionBuddhismMahayanaTotal }
-			check_variable = { ReligionFurryTotal > ReligionBuddhismTherevedaTotal }
+			check_variable = { ReligionMessianicTotal > ReligionBuddhismVajrayanaTotal }
+			check_variable = { ReligionMessianicTotal > ReligionBuddhismMahayanaTotal }
+			check_variable = { ReligionMessianicTotal > ReligionBuddhismTherevedaTotal }
 			#Eastern#
-			check_variable = { ReligionFurryTotal > ReligionShintoTotal }
-			check_variable = { ReligionFurryTotal > ReligionTraditionalEasternTotal }
-			check_variable = { ReligionFurryTotal > ReligionConfucianTotal }
+			check_variable = { ReligionMessianicTotal > ReligionShintoTotal }
+			check_variable = { ReligionMessianicTotal > ReligionTraditionalEasternTotal }
+			check_variable = { ReligionMessianicTotal > ReligionConfucianTotal }
 			#Indo-Iranian#
-			check_variable = { ReligionFurryTotal > ReligionHinduTotal }
-			check_variable = { ReligionFurryTotal > ReligionSikhTotal }
-			check_variable = { ReligionFurryTotal > ReligionJainTotal }
-			check_variable = { ReligionFurryTotal > ReligionTraditionalIranianTotal }
+			check_variable = { ReligionMessianicTotal > ReligionHinduTotal }
+			check_variable = { ReligionMessianicTotal > ReligionSikhTotal }
+			check_variable = { ReligionMessianicTotal > ReligionNavayanaTotal }
+			check_variable = { ReligionMessianicTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionFurryTotal > ReligionSpiritualTotal }
-			check_variable = { ReligionFurryTotal > ReligionStatistTotal }
-			check_variable = { ReligionFurryTotal > ReligionCultistSafeTotal }
-			check_variable = { ReligionFurryTotal > ReligionCultistFatalTotal }
-			check_variable = { ReligionFurryTotal > ReligionTraditionalAfricanTotal }
-			check_variable = { ReligionFurryTotal > ReligionTraditionalAmericanTotal }
-			check_variable = { ReligionFurryTotal > ReligionTraditionalOceanicTotal }
-			check_variable = { ReligionFurryTotal > ReligionNautralistTotal }
-			check_variable = { ReligionFurryTotal > ReligionOtherTotal }
+			check_variable = { ReligionMessianicTotal > ReligionZionistChristianTotal }
+			check_variable = { ReligionMessianicTotal > ReligionStatistTotal }
+			check_variable = { ReligionMessianicTotal > ReligionCultistSafeTotal }
+			check_variable = { ReligionMessianicTotal > ReligionCultistFatalTotal }
+			check_variable = { ReligionMessianicTotal > ReligionTraditionalAfricanTotal }
+			check_variable = { ReligionMessianicTotal > ReligionTraditionalAmericanTotal }
+			check_variable = { ReligionMessianicTotal > ReligionTraditionalOceanicTotal }
+			check_variable = { ReligionMessianicTotal > ReligionNautralistTotal }
+			check_variable = { ReligionMessianicTotal > ReligionOtherTotal }
 		}
-		set_country_flag = PR_Furry
+		set_country_flag = PR_Messianic
 	}
 	else_if = {
 		limit = {
@@ -1815,10 +1815,10 @@ major_religion_placeholder = {
 			#Indo-Iranian#
 			check_variable = { ReligionOtherTotal > ReligionHinduTotal }
 			check_variable = { ReligionOtherTotal > ReligionSikhTotal }
-			check_variable = { ReligionOtherTotal > ReligionJainTotal }
+			check_variable = { ReligionOtherTotal > ReligionNavayanaTotal }
 			check_variable = { ReligionOtherTotal > ReligionTraditionalIranianTotal }
 			#Minor/Esoteric#
-			check_variable = { ReligionOtherTotal > ReligionSpiritualTotal }
+			check_variable = { ReligionOtherTotal > ReligionZionistChristianTotal }
 			check_variable = { ReligionOtherTotal > ReligionStatistTotal }
 			check_variable = { ReligionOtherTotal > ReligionCultistSafeTotal }
 			check_variable = { ReligionOtherTotal > ReligionCultistFatalTotal }
@@ -1826,11 +1826,3436 @@ major_religion_placeholder = {
 			check_variable = { ReligionOtherTotal > ReligionTraditionalAmericanTotal }
 			check_variable = { ReligionOtherTotal > ReligionTraditionalOceanicTotal }
 			check_variable = { ReligionOtherTotal > ReligionNautralistTotal }
-			check_variable = { ReligionOtherTotal > ReligionFurryTotal }
+			check_variable = { ReligionOtherTotal > ReligionMessianicTotal }
 		}
 		set_country_flag = PR_Other
 	}
 	else = {
 		set_country_flag = PR_Other
+	}
+}
+
+global_gdp_set = {
+	if = {
+		limit = {
+			check_variable = { global.year = 1950 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.087 }
+	}			
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1951 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.08 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1952 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.041 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1953 }
+		}
+		set_variable = { VTC.global_gdp_rate = -0.006 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1954 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.071 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1955 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.08 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1956 }
+		}
+		set_variable = { VTC.global_gdp_rate = .021 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1957 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.021 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1958 }
+		}
+		set_variable = { VTC.global_gdp_rate = -0.007 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1959 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.069 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1960 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.026 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1961 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.026 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1962 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.043 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1963 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.055 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1964 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.067 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1965 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.055 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1966 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.057 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1967 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.045 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1968 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.064 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1969 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.061 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1970 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.036 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1971 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.043 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1972 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.057 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1973 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.065 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1974 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.019 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1975 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.006 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1976 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.053 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1977 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.039 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1978 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.039 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1979 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.041 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1980 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.019 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1981 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.019 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1982 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.004 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1983 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.024 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1984 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.045 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1985 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.037 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1986 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.034 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1987 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.037 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1988 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.046 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1989 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.037 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1990 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.029 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1991 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.014 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1992 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.017 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1993 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.015 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1994 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.03 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1995 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.03 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1996 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.034 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1997 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.037 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1998 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.025 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1999 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.032 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { global.year = 2000 }
+		}
+		set_variable = { VTC.global_gdp_rate = 0.044 }
+	}
+	else = {
+		set_variable = { VTC.global_gdp_rate = 0.02 }
+	}
+}
+american_house_election = {
+	set_variable = {
+		US_HOUSE_SIZE = 435
+	}
+	set_variable = {
+		gop_house_caucus = 0
+	}
+	set_variable = {
+		dem_house_caucus = 0
+	}
+	set_variable = {
+		HOUSE_SEATS_LOOP = US_HOUSE_SIZE
+	}
+	set_variable = {
+		base_dem_performance = 0.50
+	}
+	add_to_variable = {
+		base_dem_performance = gerrymandering_d_bias
+	}
+	add_to_variable = {
+		base_dem_performance = national_d_pvi_enviroment
+	}
+    while_loop_effect = {
+        limit = {
+			check_variable = {
+				HOUSE_SEATS_LOOP > 0
+			}
+		}
+		set_variable = {
+			US_HOUSE_CHANCE = random
+		}
+		if = {
+			limit = {
+				check_variable = {
+					base_dem_performance > US_HOUSE_CHANCE
+				}
+			}
+			add_to_variable = { dem_house_caucus = 1 } 
+			add_to_variable = { HOUSE_SEATS_LOOP = -1 }
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					base_dem_performance < US_HOUSE_CHANCE
+				}
+			}
+			add_to_variable = { gop_house_caucus = 1 }
+			add_to_variable = { HOUSE_SEATS_LOOP = -1 }
+		}
+		else = {
+
+		}
+	}	
+}
+american_house_pvi_set = {
+	if = {
+		limit = {
+			check_variable = { global.year = 1948 }
+		}
+		set_variable = { gerrymandering_d_bias = 0.06 }
+		set_variable = { national_d_pvi_enviroment = 0.05 }
+		set_variable = { national_r_pvi_enviroment = -0.05 }
+	}	
+	if = {
+		limit = {
+			check_variable = { global.year = 1949 }
+		}
+		set_variable = { gerrymandering_d_bias = 0.03 }
+		set_variable = { national_d_pvi_enviroment = 0.02 }
+		set_variable = { national_r_pvi_enviroment = -0.02 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1950 }
+		}
+		set_variable = { gerrymandering_d_bias = 0.03 }
+		set_variable = { national_d_pvi_enviroment = 0.02 }
+		set_variable = { national_r_pvi_enviroment = -0.02 }
+	}	
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1952 }
+		}
+		set_variable = { gerrymandering_d_bias = 0 }
+		set_variable = { national_d_pvi_enviroment = -0.01 }
+		set_variable = { national_r_pvi_enviroment = 0.01 }
+	}	
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1954 }
+		}
+		set_variable = { gerrymandering_d_bias = 0 }
+		set_variable = { national_d_pvi_enviroment = 0.01 }
+		set_variable = { national_r_pvi_enviroment = -0.01 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1956 }
+		}
+		set_variable = { gerrymandering_d_bias = 0.03 }
+		set_variable = { national_d_pvi_enviroment = 0.04 }
+		set_variable = { national_r_pvi_enviroment = -0.04 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1958 }
+		}
+		set_variable = { gerrymandering_d_bias = 0.07 }
+		set_variable = { national_d_pvi_enviroment = 0.07 }
+		set_variable = { national_r_pvi_enviroment = -0.07 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1960 }
+		}
+		set_variable = { gerrymandering_d_bias = 0.05 }
+		set_variable = { national_d_pvi_enviroment = 0.11 }
+		set_variable = { national_r_pvi_enviroment = -0.11 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1962 }
+		}
+		set_variable = { gerrymandering_d_bias = 0.06 }
+		set_variable = { national_d_pvi_enviroment = 0.08 }
+		set_variable = { national_r_pvi_enviroment = -0.08 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1964 }
+		}
+		set_variable = { gerrymandering_d_bias = 0.11 }
+		set_variable = { national_d_pvi_enviroment = 0.10 }
+		set_variable = { national_r_pvi_enviroment = -0.10 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1966 }
+		}
+		set_variable = { gerrymandering_d_bias = 0.06 }
+		set_variable = { national_d_pvi_enviroment = 0.08 }
+		set_variable = { national_r_pvi_enviroment = -0.08 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1968 }
+		}
+		set_variable = { gerrymandering_d_bias = 0.05 }
+		set_variable = { national_d_pvi_enviroment = 0.02 }
+		set_variable = { national_r_pvi_enviroment = -0.02 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1970 }
+		}
+		set_variable = { gerrymandering_d_bias = 0.04 }
+		set_variable = { national_d_pvi_enviroment = 0.06 }
+		set_variable = { national_r_pvi_enviroment = -0.06 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1972 }
+		}
+		set_variable = { gerrymandering_d_bias = 0.03 }
+		set_variable = { national_d_pvi_enviroment = 0.08 }
+		set_variable = { national_r_pvi_enviroment = -0.08 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1974 }
+		}
+		set_variable = { gerrymandering_d_bias = 0.09 }
+		set_variable = { national_d_pvi_enviroment = 0.11 }
+		set_variable = { national_r_pvi_enviroment = -0.11 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1976 }
+		}
+		set_variable = { gerrymandering_d_bias = 0.11 }
+		set_variable = { national_d_pvi_enviroment = 0.14 }
+		set_variable = { national_r_pvi_enviroment = -0.14 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1978 }
+		}
+		set_variable = { gerrymandering_d_bias = 0.10 }
+		set_variable = { national_d_pvi_enviroment = 0.10 }
+		set_variable = { national_r_pvi_enviroment = -0.10 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1980 }
+		}
+		set_variable = { gerrymandering_d_bias = 0.05 }
+		set_variable = { national_d_pvi_enviroment = 0.05 }
+		set_variable = { national_r_pvi_enviroment = -0.05 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1982 }
+		}
+		set_variable = { gerrymandering_d_bias = 0.06 }
+		set_variable = { national_d_pvi_enviroment = 0.06 }
+		set_variable = { national_r_pvi_enviroment = -0.06 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1984 }
+		}
+		set_variable = { gerrymandering_d_bias = 0.05 }
+		set_variable = { national_d_pvi_enviroment = 0.08 }
+		set_variable = { national_r_pvi_enviroment = -0.08 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1986 }
+		}
+		set_variable = { gerrymandering_d_bias = 0.04 }
+		set_variable = { national_d_pvi_enviroment = 0.08 }
+		set_variable = { national_r_pvi_enviroment = -0.08 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1988 }
+		}
+		set_variable = { gerrymandering_d_bias = 0.06 }
+		set_variable = { national_d_pvi_enviroment = 0.09 }
+		set_variable = { national_r_pvi_enviroment = -0.09 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1990 }
+		}
+		set_variable = { gerrymandering_d_bias = 0.07 }
+		set_variable = { national_d_pvi_enviroment = 0.08 }
+		set_variable = { national_r_pvi_enviroment = -0.08 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1992 }
+		}
+		set_variable = { gerrymandering_d_bias = 0.06 }
+		set_variable = { national_d_pvi_enviroment = 0.07 }
+		set_variable = { national_r_pvi_enviroment = -0.07 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1994 }
+		}
+		set_variable = { gerrymandering_d_bias = 0 }
+		set_variable = { national_d_pvi_enviroment = -0.01 }
+		set_variable = { national_r_pvi_enviroment = 0.01 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1996 }
+		}
+		set_variable = { gerrymandering_d_bias = 0 }
+		set_variable = { national_d_pvi_enviroment = 0.01 }
+		set_variable = { national_r_pvi_enviroment = -0.01 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 1998 }
+		}
+		set_variable = { gerrymandering_d_bias = 0 }
+		set_variable = { national_d_pvi_enviroment = 0 }
+		set_variable = { national_r_pvi_enviroment = 0 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.year = 2000 }
+		}
+		set_variable = { gerrymandering_d_bias = 0 }
+		set_variable = { national_d_pvi_enviroment = -0.02 }
+		set_variable = { national_r_pvi_enviroment = 0.02 }
+	}
+	else = {
+	}
+}
+senate_election_class_III = { 
+	set_variable = {
+		senate_dem_caucus = 0
+	}
+	set_variable = {
+		senate_gop_caucus = 0
+	}
+	367 = {
+		senate_election_state_III_effect = yes
+	}
+	if = {
+		limit = {
+			has_country_flag = ak_hi_state
+		}
+		463 = {
+			senate_election_state_III_effect = yes
+		}
+	}
+	372 = {
+		senate_election_state_III_effect = yes
+	}
+	378 = {
+		senate_election_state_III_effect = yes
+	}
+	382 = {
+		senate_election_state_III_effect = yes
+	}
+	863 = {
+		senate_election_state_III_effect = yes
+	}
+	366 = {
+		senate_election_state_III_effect = yes
+	}
+	365 = {
+		senate_election_state_III_effect = yes
+	}
+	if = {
+		limit = {
+			has_country_flag = ak_hi_state
+		}
+		629 = {
+			senate_election_state_III_effect = yes
+		}
+	}
+	387 = {
+		senate_election_state_III_effect = yes
+	}
+	395 = {
+		senate_election_state_III_effect = yes
+	}
+	396 = {
+		senate_election_state_III_effect = yes
+	}
+	392 = {
+		senate_election_state_III_effect = yes
+	}
+	383 = {
+		senate_election_state_III_effect = yes
+	}
+	369 = {
+		senate_election_state_III_effect = yes
+	}
+	371 = {
+		senate_election_state_III_effect = yes
+	}
+	361 = {
+		senate_election_state_III_effect = yes
+	}
+	373 = {
+		senate_election_state_III_effect = yes
+	}
+	379 = {
+		senate_election_state_III_effect = yes
+	}
+	862 = {
+		senate_election_state_III_effect = yes
+	}
+	358 = {
+		senate_election_state_III_effect = yes
+	}
+	363 = {
+		senate_election_state_III_effect = yes
+	}
+	389 = {
+		senate_election_state_III_effect = yes
+	}
+	261 = {
+		senate_election_state_III_effect = yes
+	}
+	374 = {
+		senate_election_state_III_effect = yes
+	}
+	385 = {
+		senate_election_state_III_effect = yes
+	}
+	360 = {
+		senate_election_state_III_effect = yes
+	}
+	364 = {
+		senate_election_state_III_effect = yes
+	}
+	390 = {
+		senate_election_state_III_effect = yes
+	}
+	380 = {
+		senate_election_state_III_effect = yes
+	}
+	865 = {
+		senate_election_state_III_effect = yes
+	}
+	386 = {
+		senate_election_state_III_effect = yes
+	}
+	394 = {
+		senate_election_state_III_effect = yes
+	}
+	377 = {
+		senate_election_state_III_effect = yes
+	}
+	senate_caucus_calc = yes
+}
+senate_election_class_II = { 
+	set_variable = {
+		senate_dem_caucus = 0
+	}
+	set_variable = {
+		senate_gop_caucus = 0
+	}
+	367 = {
+		senate_election_state_II_effect = yes
+	}
+	if = {
+		limit = {
+			has_country_flag = ak_hi_state
+		}
+		463 = {
+			senate_election_state_II_effect = yes
+		}
+	}
+	372 = {
+		senate_election_state_II_effect = yes
+	}
+	382 = {
+		senate_election_state_II_effect = yes
+	}
+	860 = {
+		senate_election_state_II_effect = yes
+	}
+	365 = {
+		senate_election_state_II_effect = yes
+	}
+	387 = {
+		senate_election_state_II_effect = yes
+	}
+	395 = {
+		senate_election_state_II_effect = yes
+	}
+	392 = {
+		senate_election_state_II_effect = yes
+	}
+	383 = {
+		senate_election_state_II_effect = yes
+	}
+	369 = {
+		senate_election_state_II_effect = yes
+	}
+	371 = {
+		senate_election_state_II_effect = yes
+	}
+	861 = {
+		senate_election_state_II_effect = yes
+	}
+	357 = {
+		senate_election_state_II_effect = yes
+	}
+	393 = {
+		senate_election_state_II_effect = yes
+	}
+	391 = {
+		senate_election_state_II_effect = yes
+	}
+	370 = {
+		senate_election_state_II_effect = yes
+	}
+	388 = {
+		senate_election_state_II_effect = yes
+	}
+	384 = {
+		senate_election_state_II_effect = yes
+	}
+	862 = {
+		senate_election_state_II_effect = yes
+	}
+	359 = {
+		senate_election_state_II_effect = yes
+	}
+	376 = {
+		senate_election_state_II_effect = yes
+	}
+	363 = {
+		senate_election_state_II_effect = yes
+	}
+	374 = {
+		senate_election_state_II_effect = yes
+	}
+	385 = {
+		senate_election_state_II_effect = yes
+	}
+	864 = {
+		senate_election_state_II_effect = yes
+	}
+	364 = {
+		senate_election_state_II_effect = yes
+	}
+	390 = {
+		senate_election_state_II_effect = yes
+	}
+	368 = {
+		senate_election_state_II_effect = yes
+	}
+	375 = {
+		senate_election_state_II_effect = yes
+	}
+	362 = {
+		senate_election_state_II_effect = yes
+	}
+	859 = {
+		senate_election_state_II_effect = yes
+	} 
+	381 = {
+		senate_election_state_II_effect = yes
+	}
+
+	senate_caucus_calc = yes
+}
+senate_election_class_I = { 
+	set_variable = {
+		senate_dem_caucus = 0
+	}
+	set_variable = {
+		senate_gop_caucus = 0
+	}
+	377 = {
+		senate_election_state_I_effect = yes
+	}
+	378 = {
+		senate_election_state_I_effect = yes
+	}
+	863 = {
+		senate_election_state_I_effect = yes
+	} 
+	860 = {
+		senate_election_state_I_effect = yes
+	}
+	366 = {
+		senate_election_state_I_effect = yes
+	}
+	if = {
+		limit = {
+			has_country_flag = ak_hi_state
+		}
+		629 = {
+			senate_election_state_I_effect = yes
+		}
+	}	
+	396 = {
+		senate_election_state_I_effect = yes
+	}
+	861 = {
+		senate_election_state_I_effect = yes
+	}
+	361 = {
+		senate_election_state_I_effect = yes
+	}
+	357 = {
+		senate_election_state_I_effect = yes
+	}
+	393 = {
+		senate_election_state_I_effect = yes
+	}
+	391 = {
+		senate_election_state_I_effect = yes
+	}
+	370 = {
+		senate_election_state_I_effect = yes
+	}
+	373 = {
+		senate_election_state_I_effect = yes
+	}
+	388 = {
+		senate_election_state_I_effect = yes
+	}
+	384 = {
+		senate_election_state_I_effect = yes
+	}
+	379 = {
+		senate_election_state_I_effect = yes
+	}
+	359 = {
+		senate_election_state_I_effect = yes
+	}
+	376 = {
+		senate_election_state_I_effect = yes
+	}
+	358 = {
+		senate_election_state_I_effect = yes
+	}
+	389 = {
+		senate_election_state_I_effect = yes
+	}
+	261 = {
+		senate_election_state_I_effect = yes
+	}
+	360 = {
+		senate_election_state_I_effect = yes
+	}
+	864 = {
+		senate_election_state_I_effect = yes
+	}
+	368 = {
+		senate_election_state_I_effect = yes
+	}
+	375 = {
+		senate_election_state_I_effect = yes
+	}
+	380 = {
+		senate_election_state_I_effect = yes
+	}
+	865 = {
+		senate_election_state_I_effect = yes
+	}
+	362 = {
+		senate_election_state_I_effect = yes
+	}
+	386 = {
+		senate_election_state_I_effect = yes
+	}
+	859 = {
+		senate_election_state_I_effect = yes
+	}
+	394 = {
+		senate_election_state_I_effect = yes
+	}
+	381 = {
+		senate_election_state_I_effect = yes
+	}
+	senate_caucus_calc = yes
+}
+senate_election_state_III_effect = {
+	set_variable = {
+		state_pvi_enviroment = ROOT.base_dem_performance
+	}
+	subtract_from_variable = {
+		state_pvi_enviroment = ROOT.gerrymandering_d_bias
+	}
+	add_to_variable = {
+		state_pvi_enviroment = unique_state_adjustment
+	}
+	add_to_variable = { 
+		state_pvi_enviroment = d_pvi
+	}
+	subtract_from_variable = {
+		state_pvi_enviroment = r_pvi
+	}
+	set_variable = {
+		US_SENATE_CHANCE = random
+	}
+	if = {
+		limit = {
+			check_variable = {
+				state_pvi_enviroment > 0.70
+			}
+		}
+		set_variable = { senator^2 = 1 } 
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				state_pvi_enviroment<0.30
+			}
+		}
+		set_variable = { senator^2 = 2 } 
+	}
+	else = {
+		set_variable = {
+			US_SENATE_CHANCE = random
+		}
+		if = {
+			limit = {
+				check_variable = {
+					state_pvi_enviroment > US_SENATE_CHANCE
+				}
+			}
+			set_variable = { senator^2 = 1 } 
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					state_pvi_enviroment < US_SENATE_CHANCE
+				}
+			}
+			set_variable = { senator^2 = 2 } 
+		}
+	}
+
+}
+senate_election_state_II_effect = {
+	set_variable = {
+		state_pvi_enviroment = ROOT.base_dem_performance
+	}
+	subtract_from_variable = {
+		state_pvi_enviroment = ROOT.gerrymandering_d_bias
+	}
+	add_to_variable = { 
+		state_pvi_enviroment = d_pvi
+	}
+	subtract_from_variable = {
+		state_pvi_enviroment = r_pvi
+	}
+	add_to_variable = {
+		state_pvi_enviroment = unique_state_adjustment
+	}
+	if = {
+		limit = {
+			check_variable = {
+				state_pvi_enviroment > 0.70
+			}
+		}
+		set_variable = { senator^1 = 1 } 
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				state_pvi_enviroment<0.30
+			}
+		}
+		set_variable = { senator^1 = 2 } 
+	}
+	else = {
+		set_variable = {
+			US_SENATE_CHANCE = random
+		}
+		if = {
+			limit = {
+				check_variable = {
+					state_pvi_enviroment > US_SENATE_CHANCE
+				}
+			}
+			set_variable = { senator^1 = 1 } 
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					state_pvi_enviroment < US_SENATE_CHANCE
+				}
+			}
+			set_variable = { senator^1 = 2 } 
+		}
+	}
+
+}
+senate_election_state_I_effect = {
+	set_variable = {
+		state_pvi_enviroment = ROOT.base_dem_performance
+	}
+	subtract_from_variable = {
+		state_pvi_enviroment = ROOT.gerrymandering_d_bias
+	}
+	add_to_variable = { 
+		state_pvi_enviroment = d_pvi
+	}
+	subtract_from_variable = {
+		state_pvi_enviroment = r_pvi
+	}
+	add_to_variable = {
+		state_pvi_enviroment = unique_state_adjustment
+	}
+	set_variable = {
+		US_SENATE_CHANCE = random
+	}
+	if = {
+		limit = {
+			check_variable = {
+				state_pvi_enviroment > 0.70
+			}
+		}
+		set_variable = { senator^0 = 1 } 
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				state_pvi_enviroment<0.30
+			}
+		}
+		set_variable = { senator^0 = 2 } 
+	}
+	else = {
+		set_variable = {
+			US_SENATE_CHANCE = random
+		}
+		if = {
+			limit = {
+				check_variable = {
+					state_pvi_enviroment > US_SENATE_CHANCE
+				}
+			}
+			set_variable = { senator^0 = 1 } 
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					state_pvi_enviroment < US_SENATE_CHANCE
+				}
+			}
+			set_variable = { senator^0 = 2 } 
+		}
+	}
+
+}
+senate_caucus_calc = {
+	set_variable = {
+		conservative_gop = 0
+	}
+	set_variable = {
+		liberal_gop = 0
+	}
+	set_variable = {
+		dixiecrat_dem = 0
+	}
+	set_variable = {
+		progressive_dem = 0
+	}
+	set_variable = {
+		moderate_dem = 0
+	}
+	set_variable = {
+		moderate_gop = 0
+	}
+	
+	every_owned_state = {
+		if = {
+			limit = {
+				check_variable = {
+					senator^0 = 1
+				}	
+			}
+			add_to_variable = {
+				USA.senate_dem_caucus = 1
+			}
+			if = {
+				limit = {
+					has_state_flag = Progressive_Bastion
+				}
+				add_to_variable = {
+					USA.progressive_dem = 1
+				}
+			}
+			if = {
+				limit = {
+					has_state_flag = Dixiecrat_Bastion
+				}
+				add_to_variable = {
+					USA.dixiecrat_dem = 1
+				}
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					senator^1 = 1
+				}	
+			}
+			add_to_variable = {
+				USA.senate_dem_caucus = 1
+			}
+			if = {
+				limit = {
+					has_state_flag = Progressive_Bastion
+				}
+				add_to_variable = {
+					USA.progressive_dem = 1
+				}
+			}
+			if = {
+				limit = {
+					has_state_flag = Dixiecrat_Bastion
+				}
+				add_to_variable = {
+					USA.dixiecrat_dem = 1
+				}
+			}
+		}	
+		if = {
+			limit = {
+				check_variable = {
+					senator^2 = 1
+				}	
+			}
+			add_to_variable = {
+				USA.senate_dem_caucus = 1
+			}
+			if = {
+				limit = {
+					has_state_flag = Progressive_Bastion
+				}
+				add_to_variable = {
+					USA.progressive_dem = 1
+				}
+			}
+			if = {
+				limit = {
+					has_state_flag = Dixiecrat_Bastion
+				}
+				add_to_variable = {
+					USA.dixiecrat_dem = 1
+				}
+			}
+		}	
+		if = {
+			limit = {
+				check_variable = {
+					senator^0 = 2
+				}	
+			}
+			add_to_variable = {
+				USA.senate_gop_caucus = 1
+			}
+			if = {
+				limit = {
+					has_state_flag = Liberal_Republican_Bastion
+				}
+				add_to_variable = {
+					USA.liberal_gop = 1
+				}
+			}
+			if = {
+				limit = {
+					has_state_flag = Conservative_Bastion
+				}
+				add_to_variable = {
+					USA.conservative_gop = 1
+				}
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					senator^1 = 2
+				}	
+			}
+			add_to_variable = {
+				USA.senate_gop_caucus = 1
+			}
+			if = {
+				limit = {
+					has_state_flag = Liberal_Republican_Bastion
+				}
+				add_to_variable = {
+					USA.liberal_gop = 1
+				}
+			}
+			if = {
+				limit = {
+					has_state_flag = Conservative_Bastion
+				}
+				add_to_variable = {
+					USA.conservative_gop = 1
+				}
+			}
+		}	
+		if = {
+			limit = {
+				check_variable = {
+					senator^2 = 2
+				}	
+			}
+			add_to_variable = {
+				USA.senate_gop_caucus = 1
+			}
+			if = {
+				limit = {
+					has_state_flag = Liberal_Republican_Bastion
+				}
+				add_to_variable = {
+					USA.liberal_gop = 1
+				}
+			}
+			if = {
+				limit = {
+					has_state_flag = Conservative_Bastion
+				}
+				add_to_variable = {
+					USA.conservative_gop = 1
+				}
+			}
+		}
+	}
+	set_variable = {
+		moderate_dem = USA.senate_dem_caucus
+	}
+	subtract_from_variable = {
+		moderate_dem = USA.dixiecrat_dem
+	}
+	subtract_from_variable = {
+		moderate_dem = USA.progressive_dem
+	}
+	set_variable = {
+		moderate_gop = USA.senate_gop_caucus
+	}
+	subtract_from_variable = {
+		moderate_gop = USA.liberal_gop
+	}
+	subtract_from_variable = {
+		moderate_gop = USA.conservative_gop
+	}
+}
+senate_pvi_set_1948 = {
+	367 = {
+		set_variable = {
+			d_pvi = 0.28
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	} 	
+	#Alaska 463
+	377 = {
+		set_variable = {
+			d_pvi = 0.04
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}
+	372 = {
+		set_variable = {
+			d_pvi = 0.21
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	} 	
+	378 = {
+		set_variable = {
+			d_pvi = 0.01
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	} 	
+	382 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.03
+		}
+	}	
+	863 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.02
+		}
+	}	
+	860 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.01
+		}
+	}	
+	366 = {
+		set_variable = {
+			d_pvi = 0.15
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	
+	365 = {
+		set_variable = {
+			d_pvi = 0.28
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	
+	#Hawaii 629
+	387 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.01
+		}
+	}	
+	395 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.02
+		}
+	}	
+	396 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.05
+		}
+	}	
+	392 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.03
+		}
+	}	
+	383 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.11
+		}
+	}	
+	369 = {
+		set_variable = {
+			d_pvi = 0.03
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	
+	371 = {
+		set_variable = {
+			d_pvi = 0.28
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	
+	861 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.08
+		}
+	}	
+	361 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.02
+		}
+	}	
+	357 = {
+		set_variable = {
+			d_pvi = 0.01
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}
+	393 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.03
+		}
+	}
+	391 = {
+		set_variable = {
+			d_pvi = 0.03
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}
+	370 = {
+		set_variable = {
+			d_pvi = 0.42
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}
+	373 = {
+		set_variable = {
+			d_pvi = 0.01
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}
+	388 = {
+		set_variable = {
+			d_pvi = 0.02
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}
+	384 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.10
+		}
+	}
+	379 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}
+	862 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.04
+		}
+	}
+	359 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.03
+		}
+	}
+	376 = {
+		set_variable = {
+			d_pvi = 0.02
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}
+	358 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}
+	363 = {
+		set_variable = {
+			d_pvi = 0.14
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}
+	389 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.07
+		}
+	}
+	261 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.03
+		}
+	}
+	374 = {
+		set_variable = {
+			d_pvi = 0.06
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}
+	385 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.02
+		}
+	}
+	360 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.03
+		}
+	}
+	864 = {
+		set_variable = {
+			d_pvi = 0.05
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}
+	364 = {
+		set_variable = {
+			d_pvi = 0.42
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}
+	390 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.09
+		}
+	}
+	368 = {
+		set_variable = {
+			d_pvi = 0.08
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}
+	375 = {
+		set_variable = {
+			d_pvi = 0.25
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}
+	380 = {
+		set_variable = {
+			d_pvi = 0.04
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}
+	865 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.13
+		}
+	}
+	362	= {
+		set_variable = {
+			d_pvi = 0.07
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}
+	386 = {
+		set_variable = {
+			d_pvi = 0.04
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}
+	859 = {
+		set_variable = {
+			d_pvi = 0.03
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}
+	394 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.02
+		}
+	}
+	381 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.03
+		}
+	}
+
+}
+senate_pvi_set_1952 = {
+	367 = {
+		set_variable = {
+			d_pvi = 0.23
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	
+	377 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.01
+		}
+	}	
+	372 = {
+		set_variable = {
+			d_pvi = 0.18
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	####+18	D
+	378 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.02
+		}
+	}	####+2	R
+	382 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.03
+		}
+	}	####+3	R
+	863 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.02
+		}
+	}	####+2	R
+	860 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	
+	366 = {
+		set_variable = {
+			d_pvi = 0.06
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	####+6	D
+	365 = {
+		set_variable = {
+			d_pvi = 0.26
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	####+26	D
+	387 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.06
+		}
+	}	####+6	R
+	395 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.01
+		}
+	}	####+1	R
+	396 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.04
+		}
+	}	####+4	R
+	392 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.06
+		}
+	}	####+6	R
+	383 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.11
+		}
+	}	####+11	R
+	369 = {
+		set_variable = {
+			d_pvi = 0.05
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	####+5	D
+	371 = {
+		set_variable = {
+			d_pvi = 0.18
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	####+18	D
+	86 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.11
+		}
+	}	####+11	R
+	361 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.02
+		}
+	}	####+2	R
+	357 = {
+		set_variable = {
+			d_pvi = 0.02
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	####+2	D
+	393 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.02
+		}
+	}	####+2	R
+	391 = {
+		set_variable = {
+			d_pvi = 0.03
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	####+3	D
+	370 = {
+		set_variable = {
+			d_pvi = 0.29
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	####+29	D
+	373 = {
+		set_variable = {
+			d_pvi = 0.05
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	####+5	D
+	388 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.01
+		}
+	}	####+1	R
+	384 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.11
+		}
+	}	####+11	R
+	379 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.04
+		}
+	}	####+4	R
+	862 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.06
+		}
+	}	####+6	R
+	359 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.03
+		}
+	}	####+3	R
+	376 = {
+		set_variable = {
+			d_pvi = 0.01
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	####+1	D
+	358 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	
+	363 = {
+		set_variable = {
+			d_pvi = 0.11
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	####+11	D
+	389 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.11
+		}
+	}	####+11	R
+	261 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.02
+		}
+	}	####+2	R
+	374 = {
+		set_variable = {
+			d_pvi = 0.05
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	####+5	D
+	385 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.05
+		}
+	}	####+5	R
+	360 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.01
+		}
+	}	####+1	R
+	864 = {
+		set_variable = {
+			d_pvi = 0.05
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	####+5	D
+	364 = {
+		set_variable = {
+			d_pvi = 0.24
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	####+24	D
+	390 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.10
+		}
+	}	####+10	R
+	368 = {
+		set_variable = {
+			d_pvi = 0.07
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	####+7	D
+	375 = {
+		set_variable = {
+			d_pvi = 0.12
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	####+12	D
+	380 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.01
+		}
+	}	####+1	R
+	865 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.16
+		}
+	}	####+16	R
+	362 = {
+		set_variable = {
+			d_pvi = 0.02
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	####+2	D
+	386 = {
+		set_variable = {
+			d_pvi = 0.02
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	####+2	D
+	859 = {
+		set_variable = {
+			d_pvi = 0.05
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	####+5	D
+	394 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.03
+		}
+	}	####+3	R
+	381 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.04
+		}
+	}	####+4	R
+}
+senate_pvi_set_1956 = {
+	367 = {
+		set_variable = {
+			d_pvi = 0.19
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	###+19	D
+	377 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.04
+		}
+	}	###+4	R
+	372 = {
+		set_variable = {
+			d_pvi = 0.11
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	###+11	D
+	378 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	###+	E
+	382 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.04
+		}
+	}	###+4	R
+	863 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.04
+		}
+	}	###+4	R
+	860 = {
+		set_variable = {
+			d_pvi = 0.02
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	###+2	D
+	366 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	###+	E
+	365 = {
+		set_variable = {
+			d_pvi = 0.25
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	###+25	D
+	387 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.07
+		}
+	}	###+7	R
+	395 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.01
+		}
+	}	###+1	R
+	396 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.03
+		}
+	}	###+3	R
+	392 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.06
+		}
+	}	###+6	R
+	383 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.11
+		}
+	}	###+11	R
+	369 = {
+		set_variable = {
+			d_pvi = 0.04
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	###+4	D
+	371 = {
+		set_variable = {
+			d_pvi = 0.06
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	###+6	D
+	861 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.13
+		}
+	}	###+13	R
+	361 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.02
+		}
+	}	###+2	R
+	357 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.01
+		}
+	}	###+1	R
+	393 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	###+	E
+	391 = {
+		set_variable = {
+			d_pvi = 0.01
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	###+1	D
+	370 = {
+		set_variable = {
+			d_pvi = 0.24
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	###+24	D
+	373 = {
+		set_variable = {
+			d_pvi = 0.06
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	###+6	D
+	388 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.02
+		}
+	}	###+2	R
+	384 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.11
+		}
+	}	###+11	R
+	379 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.04
+		}
+	}	###+4	R
+	862 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.08
+		}
+	}	###+8	R
+	359 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.05
+		}
+	}	###+5	R
+	376 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.01
+		}
+	}	###+1	R
+	358 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.03
+		}
+	}	###+3	R
+	363 = {
+		set_variable = {
+			d_pvi = 0.08
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	###+8	D
+	389 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.11
+		}
+	}	###+11	R
+	261 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.03
+		}
+	}	###+3	R
+	374 = {
+		set_variable = {
+			d_pvi = 0.01
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	###+1	D
+	385 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.02
+		}
+	}	###+2	R
+	360 = {
+		set_variable = {
+			d_pvi = 0.01
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	###+1	D
+	864 = {
+		set_variable = {
+			d_pvi = 0.01
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	###+1	D
+	364 = {
+		set_variable = {
+			d_pvi = 0.19
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	###+19	D
+	390 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.08
+		}
+	}	###+8	R
+	368 = {
+		set_variable = {
+			d_pvi = 0.06
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	###+6	D
+	375 = {
+		set_variable = {
+			d_pvi = 0.02
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	###+2	D
+	380 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.06
+		}
+	}	###+6	R
+	865 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.16
+		}
+	}	###+16	R
+	362 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	###+	E
+	386 = {
+		set_variable = {
+			d_pvi = 0.02
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	###+2	D
+	859 = {
+		set_variable = {
+			d_pvi = 0.05
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	###+5	D
+	394 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.05
+		}
+	}	###+5	R
+	381 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.05
+		}
+	}	###+5	R	
+}
+senate_pvi_set_1960 = {
+	36 = {
+		set_variable = {
+			d_pvi = 0.15
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+15	D
+	463 = {
+		set_variable = {
+			d_pvi = 0.07
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+7	D
+	377 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.03
+		}
+	}		##+3	R
+	372 = {
+		set_variable = {
+			d_pvi = 0.10
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+10	D
+	378 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	
+	382 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.04
+		}
+	}		##+4	R
+	863 = {
+		set_variable = {
+			d_pvi = 0.02
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+2	D
+	860 = {
+		set_variable = {
+			d_pvi = 0.03
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+3	D
+	366 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		
+	365 = {
+		set_variable = {
+			d_pvi = 0.20
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+20	D
+	629 = {
+		set_variable = {
+			d_pvi = 0.16
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+16	D
+	387 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.06
+		}
+	}		##+6	R
+	395 = {
+		set_variable = {
+			d_pvi = 0.01
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+1	D
+	396 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.03
+		}
+	}		##+3	R
+	392 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.07
+		}
+	}		##+7	R
+	383 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.11
+		}
+	}		##+11	R
+	369 = {
+		set_variable = {
+			d_pvi = 0.02
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+2	D
+	371 = {
+		set_variable = {
+			d_pvi = 0.16
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+16	D
+	861 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.08
+		}
+	}		##+8	R
+	361 = {
+		set_variable = {
+			d_pvi = 0.02
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+2	D
+	357 = {
+		set_variable = {
+			d_pvi = 0.07
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+7	D
+	393 = {
+		set_variable = {
+			d_pvi = 0.01
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+1	D
+	391 = {
+		set_variable = {
+			d_pvi = 0.01
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+1	D
+	370 = {
+		set_variable = {
+			d_pvi = 0.21
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+21	D
+	373 = {
+		set_variable = {
+			d_pvi = 0.03
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+3	D
+	388 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.02
+		}
+	}		##+2	R
+	384 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.12
+		}
+	}		##+12	R
+	379 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.02
+		}
+	}		##+2	R
+	862 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.04
+		}
+	}		##+4	R
+	359 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	
+	376 = {
+		set_variable = {
+			d_pvi = 0.01
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+1	D
+	358 = {
+		set_variable = {
+			d_pvi = 0.02
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	##+2	D
+	363 = {
+		set_variable = {
+			d_pvi = 0.07
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+7	D
+	389 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.10
+		}
+	}		##+10	R
+	261 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.02
+		}
+	}		##+2	R
+	374 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.03
+		}
+	}		##+3	R
+	385 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.03
+		}
+	}		##+3	R
+	360 = {
+		set_variable = {
+			d_pvi = 0.03
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+3	D
+	864 = {
+		set_variable = {
+			d_pvi = 0.10
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+10	D
+	364 = {
+		set_variable = {
+			d_pvi = 0.04
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+4	D
+	390 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.10
+		}
+	}		##+10	R
+	368 = {
+		set_variable = {
+			d_pvi = 0.02
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+2	D
+	375 = {
+		set_variable = {
+			d_pvi = 0.03
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+3	D
+	380 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.03
+		}
+	}		##+3	R
+	865 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.12
+		}
+	}		##+12	R
+	362 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.01
+		}
+	}		##+1	R
+	386 = {
+		set_variable = {
+			d_pvi = 0.01
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+1	D
+	859 = {
+		set_variable = {
+			d_pvi = 0.06
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}		##+6	D
+	394 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.03
+		}
+	}		##+3	R
+	381 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.05
+		}
+	}		##+5	R	
+}
+senate_pvi_set_1964 = {
+	367 = {
+		set_variable = {
+			d_pvi = 0.06
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+6	D
+	463 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.06
+		}
+	}	#+6	R
+	377 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.05
+		}
+	}	#+5	R
+	372 = {
+		set_variable = {
+			d_pvi = 0.03
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+3	D
+	378 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+	E
+	382 = {
+		set_variable = {
+			d_pvi = 0.01
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+1	D
+	863 = {
+		set_variable = {
+			d_pvi = 0.02
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+2	D
+	860 = {
+		set_variable = {
+			d_pvi = 0.13
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+13	D
+	366 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.06
+		}
+	}	#+6	R
+	365 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.01
+		}
+	}	#+1	R
+	629 = {
+		set_variable = {
+			d_pvi = 0.09
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+9	D
+	387 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.07
+		}
+	}	#+7	R
+	395 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.01
+		}
+	}	#+1	R
+	396 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.05
+		}
+	}	#+5	R
+	392 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.03
+		}
+	}	#+3	R
+	383 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.08
+		}
+	}	#+8	R
+	369 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+	E
+	371 = {
+		set_variable = {
+			d_pvi = 0.02
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+2	D
+	861 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+	E
+	361 = {
+		set_variable = {
+			d_pvi = 0.04
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+4	D
+	357 = {
+		set_variable = {
+			d_pvi = 0.13
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+13	D
+	393 = {
+		set_variable = {
+			d_pvi = 0.03
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+3	D
+	391 = {
+		set_variable = {
+			d_pvi = 0.02
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+2	D
+	370 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.11
+		}
+	}	#+11	R
+	373 = {
+		set_variable = {
+			d_pvi = 0.02
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+2	D
+	388 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.01
+		}
+	}	#+1	R
+	384 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.10
+		}
+	}	#+10	R
+	379 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.01
+		}
+	}	#+1	R
+	862 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+	E
+	359 = {
+		set_variable = {
+			d_pvi = 0.03
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+3	D
+	376 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+	E
+	358 = {
+		set_variable = {
+			d_pvi = 0.05
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+5	D
+	363 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.01
+		}
+	}	#+1	R
+	389 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.04
+		}
+	}	#+4	R
+	261 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.01
+		}
+	}	#+1	R
+	374 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.07
+		}
+	}	#+7	R
+	385 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+	E
+	360 = {
+		set_variable = {
+			d_pvi = 0.03
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+3	D
+	864 = {
+		set_variable = {
+			d_pvi = 0.17
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+17	D
+	364 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.09
+		}
+	}	#+9	R
+	390 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.07
+		}
+	}	#+7	R
+	368 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.04
+		}
+	}	#+4	R
+	375 = {
+		set_variable = {
+			d_pvi = 0.02
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+2	D
+	380 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.05
+		}
+	}	#+5	R
+	865 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.02
+		}
+	}	#+2	R
+	362 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.05
+		}
+	}	#+5	R
+	386 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+	E
+	859 = {
+		set_variable = {
+			d_pvi = 0.05
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+5	D
+	394 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0
+		}
+	}	#+	E
+	381 = {
+		set_variable = {
+			d_pvi = 0
+		}
+		set_variable = {
+			r_pvi = 0.05
+		}
+	}	#+5	R	
+}
+senate_pvi_set_1968 = {
+	
+}
+senate_pvi_set_1972 = {
+	
+}
+senate_pvi_set_1976 = {
+	
+}
+senate_pvi_set_1980 = {
+	
+}
+senate_pvi_set_1984 = {
+	
+}
+senate_pvi_set_1988 = {
+	
+}
+senate_pvi_set_1992 = {
+	
+}
+senate_pvi_set_1996 = {
+	
+}
+senate_pvi_set_2000 = {
+	
+}
+
+bipartisan_house_calc = {
+	multiply_variable = {
+		bipartisan_value = 435
+	}
+	round_variable = bipartisan_value
+	add_to_variable = {
+		supseat = bipartisan_value
+	}
+}
+
+senate_moderate_dem_support = {
+	add_to_variable = {
+		supseat_sen = moderate_dem
+	}
+}
+senate_progressive_dem_support = {
+	add_to_variable = {
+		supseat_sen = progressive_dem
+	}
+}
+senate_dixiecrat_dem_support = {
+	add_to_variable = {
+		supseat_sen = dixiecrat_dem
+	}
+}
+senate_gop_total_support = {
+	add_to_variable = {
+		supseat_sen = conservative_gop
+	}
+	add_to_variable = {
+		supseat_sen = liberal_gop
+	}
+	add_to_variable = {
+		supseat_sen = moderate_gop
+	}
+}
+
+senate_normal_dem_support = {
+	add_to_variable = {
+		supseat_sen = moderate_dem
+	}
+	add_to_variable = {
+		supseat_sen = progressive_dem
+	}
+}
+
+senate_gop_moderate_support = {
+	add_to_variable = {
+		supseat_sen = moderate_gop
+	}
+}
+senate_gop_liberal_support = {
+	add_to_variable = {
+		supseat_sen = liberal_gop
+	}
+}
+senate_gop_conservative_support = {
+	add_to_variable = {
+		supseat_sen = conservative_gop
+	}
+}
+lobbying_effect = {
+	if = {
+		limit = {
+			check_variable = {
+				lobby_check = 10
+			}
+		}
+		add_to_variable = {
+			supseat = 22
+		}
 	}
 }

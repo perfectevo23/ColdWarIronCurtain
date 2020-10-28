@@ -6,7 +6,8 @@ add_namespace = wifnews
 add_namespace = wif
 
 	news_event = {
-		id = wifnews.1
+		id = wifnews.1 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = wifnews.1"}
 		title = "[GetNewspaperHeader] Formation of the West Indies Federation"
 		desc = wif.1.d
 		major = yes
@@ -20,7 +21,8 @@ add_namespace = wif
 	}
 
 country_event = {
-	id = wif.2
+	id = wif.2 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = wif.2"}
 	title = "Breakup of the West Indies Federation"
 	desc = "rip"
 
@@ -31,6 +33,7 @@ country_event = {
 		ENG = {
 			transfer_state = 1163
 			transfer_state = 693
+			transfer_state = 1226
 		}
 		release = JAM
 		release = BAS
@@ -40,6 +43,8 @@ country_event = {
 		release = GND
 		release = TRI
 		drop_cosmetic_tag = yes
+		news_event = newsdecolonization.49
+		news_event = newsdecolonization.50
 	}
 
 	option = {

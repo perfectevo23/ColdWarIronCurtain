@@ -165,6 +165,13 @@ set_technology = {
   HOL = { diplomatic_relation = { country = ENG relation = military_access active = yes } }
   HOL = { diplomatic_relation = { country = CAN relation = military_access active = yes } }
 
+1945.8.17 = {
+	add_named_threat = { 
+		threat = 3
+		name = "Indonesian_War_of_Independence_TT"
+	}	
+}
+
 1956.1.1 = {
   HOL = { diplomatic_relation = { country = TUR relation = military_access active = yes } }
   HOL = { diplomatic_relation = { country = GRE relation = military_access active = yes } }
@@ -197,91 +204,24 @@ if = {
 	}
 	set_autonomy = {
 		target = INS
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.7
+	}
+	set_autonomy = {
+		target = WPA
 		autonomous_state = autonomy_colony
 		freedom_level = 0.7
 	}
 	else = {
 		puppet = INS
+		puppet = WPA
 	}
 }
 
-1945.1.1 = {
- INS = {
-	
 
-	set_popularities = { 
-		democratic = 0
-		communism = 0
-		fascism = 0
-		nationalism = 0
-		monarchism = 0
-		neutrality = 100
-		islamism = 0
-		radical_shiaism = 0
-		
-		Social_Democratic = 0
-		Social_Liberalism = 0
-		Salafism = 0
-		
-		Liberal_Conservatism = 0
-		
-		conservative = 0
-		Christian_Democratic = 0
-		socialist = 0
-		centrist = 0
-		liberal = 0
-		trotskyism = 0
-		maoism = 0
-		
-	}
-	
-	set_politics = {
-	ruling_party = neutrality
-	last_election = "1945.1.1"
-	election_frequency = 48
-	elections_allowed = no
-  }
- }
-}
 
 1949.1.1 = {
 	add_to_tech_sharing_group = marshall_plan
-	INS = {
-	
-
-	set_popularities = { 
-		democratic = 0
-		communism = 0
-		fascism = 0
-		nationalism = 0
-		monarchism = 0
-		neutrality = 100
-		islamism = 0
-		radical_shiaism = 0
-		
-		Social_Democratic = 0
-		Social_Liberalism = 0
-		Salafism = 0
-		
-		Liberal_Conservatism = 0
-		
-		conservative = 0
-		Christian_Democratic = 0
-		socialist = 0
-		centrist = 0
-		liberal = 0
-		trotskyism = 0
-		maoism = 0
-		
-	}
-	
-	set_politics = {
-	ruling_party = neutrality
-	last_election = "1949.1.1"
-	election_frequency = 48
-	elections_allowed = no
-  }
- }
 }
 
 add_ideas = {
@@ -475,7 +415,7 @@ create_country_leader = {
 	}
 }
 
-1963.1.1 = {
+1962.1.1 = {
 	create_country_leader = {
 		name = "Norbert Schmelzer"
 		picture = "Norbert_Schmelzer.dds"
@@ -485,6 +425,19 @@ create_country_leader = {
 		name = "Edzo Toxopeus"
 		picture = "Edzo_Toxopeus.dds"
 		ideology = libertarianism
+	}
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = WPA
+			autonomous_state = autonomy_dominion
+			freedom_level = 0.7
+		}
+		else = {
+			puppet = WPA
+		}
 	}
 }
 

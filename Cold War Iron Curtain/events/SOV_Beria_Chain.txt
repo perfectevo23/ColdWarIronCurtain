@@ -2,7 +2,8 @@ add_namespace = SOV_Beria_Struggle
 
 country_event = {
 
-    id = SOV_Beria_Struggle.1
+    id = SOV_Beria_Struggle.1 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.1"}
     title = "The Struggle for Power"
     desc = SOV_Beria_Struggle.1.d
 
@@ -16,14 +17,15 @@ country_event = {
         hidden_effect = {
             country_event = {
             days = 10 
-            id = SOV_Beria_Struggle.2
+            id = SOV_Beria_Struggle.2 
             }
         }
     }
 }
 country_event = {
 
-    id = SOV_Beria_Struggle.2
+    id = SOV_Beria_Struggle.2 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.2"}
     title = "Launching a limited version of the Purge?"
     desc = SOV_Beria_Struggle.2.d
 
@@ -35,10 +37,10 @@ country_event = {
 
         country_event = {
             days = 15
-            id = SOV_Beria_Struggle.3
-            set_country_flag = infamy_2
-            set_country_flag = support_2
+            id = SOV_Beria_Struggle.3 
         }
+        set_country_flag = infamy_2
+        set_country_flag = support_2
     }
     option = {
         name = "Better Follow Malenkov Cautiousness"
@@ -47,7 +49,8 @@ country_event = {
 }
 country_event = {
 
-    id = SOV_Beria_Struggle.3
+    id = SOV_Beria_Struggle.3 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.3"}
     title = "Falsifying Elements Against Voroshilov"
     desc = SOV_Beria_Struggle.3.d
 
@@ -59,7 +62,7 @@ country_event = {
         
         hidden_effect = {
             country_event = {
-            id = SOV_Beria_Struggle.4
+            id = SOV_Beria_Struggle.4 
             days = 30
             }
         }
@@ -69,7 +72,7 @@ country_event = {
 
         hidden_effect = {
             country_event = {
-                id = SOV_Beria_Struggle.42
+                id = SOV_Beria_Struggle.422 
                 days = 50
             }
         }
@@ -78,7 +81,8 @@ country_event = {
 }
 country_event = {
 
-    id = SOV_Beria_Struggle.4
+    id = SOV_Beria_Struggle.4 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.4"}
     title = "Of the Use of Forged Documents"
     desc = SOV_Beria_Struggle.4.d
 
@@ -90,7 +94,7 @@ country_event = {
         hidden_effect = {
             country_event = {
                 days = 80 
-                id = SOV_Beria_Struggle.5
+                id = SOV_Beria_Struggle.5 
             }
         }
         if = {
@@ -116,7 +120,7 @@ country_event = {
         hidden_effect = {
             country_event = {
             days = 30 
-            id = SOV_Beria_Struggle.41
+            id = SOV_Beria_Struggle.410 
             }
         }    
     }
@@ -126,9 +130,10 @@ country_event = {
 }
 country_event = {
 
-    id = SOV_Beria_Struggle.41
+    id = SOV_Beria_Struggle.410 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.410"}
     title = "Preparing an Army Depoliticization Reform?"
-    desc = SOV_Beria_Struggle.41.d
+    desc = SOV_Beria_Struggle.410.d
 
     fire_only_once = yes
 	is_triggered_only = yes
@@ -148,7 +153,7 @@ country_event = {
         }
         hidden_effect = {  
             country_event = {
-            id = SOV_Beria_Struggle.5
+            id = SOV_Beria_Struggle.5 
             days = 50
             }
         } 
@@ -159,7 +164,7 @@ country_event = {
 
         hidden_effect = {
             country_event = {
-                id = SOV_Beria_Struggle.5
+                id = SOV_Beria_Struggle.5 
                 days = 50
             }
         }
@@ -168,9 +173,10 @@ country_event = {
 }
 country_event = {
 
-    id = SOV_Beria_Struggle.42
+    id = SOV_Beria_Struggle.422 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.422"}
     title = "Rallying Iron Lazar"
-    desc = SOV_Beria_Struggle.42.d
+    desc = SOV_Beria_Struggle.422.d
 
     fire_only_once = yes
 	is_triggered_only = yes
@@ -179,7 +185,7 @@ country_event = {
         name = "We need to gather the Old Guard against the Khrushchevites!"
 
         country_event = {
-            id = SOV_Beria_Struggle.5
+            id = SOV_Beria_Struggle.5 
             days = 30 
         }
         set_country_flag = old_guard_path
@@ -192,7 +198,8 @@ country_event = {
 
 country_event = {
 
-    id = SOV_Beria_Struggle.5
+    id = SOV_Beria_Struggle.5 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.5"}
     title = "About our Stance on the Berlin Situation"
     desc = SOV_Beria_Struggle.5.d
 
@@ -204,7 +211,7 @@ country_event = {
 
         hidden_effect = {
             country_event = {
-            id = SOV_Beria_Struggle.6
+            id = SOV_Beria_Struggle.6 
             days = 30
             }
         }
@@ -239,7 +246,7 @@ country_event = {
 
         hidden_effect = {
             country_event = {
-            id = SOV_Beria_Struggle.6
+            id = SOV_Beria_Struggle.6 
             days = 30
             }
         }
@@ -257,7 +264,8 @@ country_event = {
 }
 country_event = {
 
-    id = SOV_Beria_Struggle.6
+    id = SOV_Beria_Struggle.6 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.6"}
     title = "Arresting Bulganin?"
     desc = SOV_Beria_Struggle.6.d
 
@@ -282,7 +290,7 @@ country_event = {
 
                 country_event = {
                 days = 30 
-                id = SOV_Beria_Struggle.71
+                id = SOV_Beria_Struggle.71 
 
                 ##Beria Potentially Winning Path##
                 }   
@@ -303,7 +311,7 @@ country_event = {
 
                 country_event = {
                 days = 30 
-                id = SOV_Beria_Struggle.71
+                id = SOV_Beria_Struggle.71 
 
                 ##Malenkov Winning Path##
                 }   
@@ -316,7 +324,7 @@ country_event = {
 
         hidden_effect = {
             country_event = {
-                id = SOV_Beria_Struggle.71
+                id = SOV_Beria_Struggle.71 
                 days = 30
             }
         }
@@ -327,7 +335,8 @@ country_event = {
 
     ##Beria Malenkov Winning Path Potentially##
 
-    id = SOV_Beria_Struggle.71
+    id = SOV_Beria_Struggle.71 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.71"}
     title = "The Assassination of Shepilov"
     desc = SOV_Beria_Struggle.71.d
 
@@ -348,7 +357,7 @@ country_event = {
             hidden_effect = {
                 country_event = {
                     days = 10 
-                    id = SOV_Beria_Struggle.82
+                    id = SOV_Beria_Struggle.82 
                 }
             } 
         }
@@ -360,34 +369,33 @@ country_event = {
             hidden_effect = {
                 country_event = {
                     days = 10 
-                    id = SOV_Beria_Struggle.82
+                    id = SOV_Beria_Struggle.82 
                 }
             }
             
             else = {  ##Khrushchev ultimately wins because Malenkov couldn't gather enough support##
-            hidden_effect = {
-                
-                load_focus_tree = SOV_Khruschev
-		    retire_country_leader = yes
-		    create_country_leader = {
-			name = "Nikita Khrushchev"
-			picture = "Nikita_Khrushchev.dds"
-			ideology = marxism_leninism
-			traits = {
-				Popular_Premier
-				Ingenuous_Reformer
-				Eccentric_Research_Enthusiast
-				Affable_Diplomat
-			}
-                country_event = 
-                    id = news.1030
-                    days = 5   
-                }
-            }         
-        }
+                hidden_effect = {
+                    
+                    load_focus_tree = SOV_Khruschev
+                    retire_country_leader = yes
+                    country_event = {
+                        id = news.1030 
+                        days = 5   
+                    }
+                        create_country_leader = {
+                        name = "Nikita Khrushchev"
+                        picture = "Nikita_Khrushchev.dds"
+                        ideology = marxism_leninism
+                        traits = {
+                            Popular_Premier
+                            Ingenuous_Reformer
+                            Eccentric_Research_Enthusiast
+                            Affable_Diplomat
+                        }
+                     }
+                }        
+            } 
         }  
-        
-    
     }
     option = {
         name = "Purging too much would harm our goals... for now"
@@ -396,7 +404,7 @@ country_event = {
 
         hidden_effect = {
             country_event = {
-                id = SOV_Beria_Struggle.81 
+                id = SOV_Beria_Struggle.81  
                 days = 30
             }
         }
@@ -404,7 +412,8 @@ country_event = {
 }
 country_event = {
 
-    id = SOV_Beria_Struggle.81
+    id = SOV_Beria_Struggle.81 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.81"}
     title = "Final Vote to Sideline Khrushchevites"
     desc = SOV_Beria_Struggle.81.d
 
@@ -415,13 +424,14 @@ country_event = {
         name = "Beria will assume Premiership"
 
         hidden_effect = {
-            add_political_power = 1000
+            add_political_power = 500
         }
     }
 }
 country_event = {
 
-    id = SOV_Beria_Struggle.82
+    id = SOV_Beria_Struggle.82 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.82"}
     title = "Final Vote to Sideline Khrushchevites"
     desc = SOV_Beria_Struggle.82.d
 
@@ -433,13 +443,14 @@ country_event = {
 
         country_event = {
             days = 10 
-            id = SOV_Beria_Struggle.9
+            id = SOV_Beria_Struggle.9 
         }
     }
 }
 country_event = {
 
-    id = SOV_Beria_Struggle.9
+    id = SOV_Beria_Struggle.9 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.9"}
     title = "Beria arrested and executed"
     desc = SOV_Beria_Struggle.9.d
 
@@ -448,11 +459,14 @@ country_event = {
 
     option = {
         name = "He pushed too far his resources"
+
+        set_country_flag = BERIA_Dead
     }
 }
 country_event = {
 
-    id = SOV_Beria_Struggle.10
+    id = SOV_Beria_Struggle.10 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.10"}
     title = "Beria succesful in his bid for General Secretary"
     desc = SOV_Beria_Struggle.10.d 
 
@@ -474,7 +488,8 @@ country_event = {
 }
 country_event = {
 
-    id = SOV_Beria_Struggle.11
+    id = SOV_Beria_Struggle.11 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.11"}
     title = "Malenkov consolidated his majority"
     desc = SOV_Beria_Struggle.11.d 
 
@@ -489,11 +504,12 @@ country_event = {
 }
 country_event = {
 
-    id = SOV_Beria_Struggle.12
+    id = SOV_Beria_Struggle.12 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.12"}
     title = "Soviet Union proposes a mutual diplomatic visit!"
-    desc = SOV_Beria_Struggle.12
+    desc = SOV_Beria_Struggle.12.d
 
-    fire_only_once = yes 
+    fire_only_once = no 
     is_triggered_only = yes
 
     option = {
@@ -512,12 +528,17 @@ country_event = {
 
         hidden_effect = {
 
+            
             random_list = {
+                
+           
                 70 = {
                     add_popularity = {
                         ideology = communism 
                         popularity = 0.01
                     }
+                
+                    
                 }
                 30 = {
                     add_political_power = 5
@@ -528,26 +549,29 @@ country_event = {
 }
 country_event = {
 
-    id = SOV_Beria_Struggle.13
+    id = SOV_Beria_Struggle.13 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.13"}
     title = "Praesidium attacked for its détente foreign policy after [ROOT.GetName] refused diplomatic visit." 
-    desc = SOV_Beria_Struggle.13.d 
+    desc = SOV_Beria_Struggle.13.d
 
     is_triggered_only = yes 
-    fire_only_once = yes 
+    fire_only_once = no
 
     option = {
         name = "Why did [ROOT.GetName] refuse?"
         add_political_power = -50
     }
+
 }
 country_event = {
 
-    id = SOV_Beria_Struggle.20
+    id = SOV_Beria_Struggle.20 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.20"}
     title = "An invitation by the Soviet Praesidium..."
-    desc = SOV_Beria_Struggle.20
+    desc = SOV_Beria_Struggle.20.d
 
     is_triggered_only = yes 
-    fire_only_once = yes
+    fire_only_once = no
 
     option = {
         name = "Out of question, we must roll them back!"
@@ -558,6 +582,9 @@ country_event = {
         SOV = {
             country_event = SOV_Beria_Struggle.13
         }
+        ai_chance = {
+            factor = 30
+        }
     }
     option = {
         name = "Surely, this will work out well!"
@@ -567,16 +594,45 @@ country_event = {
         SOV = {
             country_event = SOV_Beria_Struggle.21
         }
+
+        ai_chance = {
+            factor = 70
+
+            modifier = {
+               has_opinion = {
+                    target = SOV
+                    value > 25
+                }
+                factor = 2
+            }
+            modifier = {
+                has_government = communism 
+                factor = 10 
+            }
+            modifier = {
+                has_government = maoism 
+                factor = 10 
+            }
+            modifier = {
+                has_government = socialist
+                factor = 10 
+            }
+            modifier = {
+                tag = RAJ
+                factor = 5
+            }
+        }
     }
 }
 country_event = {
 
-    id = SOV_Beria_Struggle.21
+    id = SOV_Beria_Struggle.21 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.21"}
     title = "[FROM.GetLeader] accepts and invites us for a diplomatic visit" 
     desc = SOV_Beria_Struggle.21.d 
 
     is_triggered_only = yes 
-    fire_only_once = yes 
+    fire_only_once = no
 
     option = {
         name = "Great!"
@@ -585,7 +641,8 @@ country_event = {
 }
 country_event = {
 
-    id = SOV_Beria_Struggle.22 
+    id = SOV_Beria_Struggle.22  
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.22 "}
     title = "Soviet Union proposes to finance the ECSC Mediterranean Ports in France." 
     desc = SOV_Beria_Struggle.22.d 
 
@@ -594,6 +651,10 @@ country_event = {
 
     option = {
         name = "This will increase cooperation with our countries!"
+
+        ai_chance = {
+            factor =80
+        }
 
         FRA = {
 			add_opinion_modifier = {
@@ -678,6 +739,10 @@ country_event = {
 
         name = "Out of question, if Soviets penetrate our economy, we're doomed!"
 
+        ai_chance = {
+            factor =20
+        }
+
         add_popularity = {
             ideology = communism
             popularity = -0.02
@@ -699,7 +764,8 @@ country_event = {
 }
 country_event = {
 
-    id = SOV_Beria_Struggle.23 
+    id = SOV_Beria_Struggle.23  
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.23 "}
     title = "Soviet Union proposes to finance the ECSC Mediterranean Ports in Italy." 
     desc = SOV_Beria_Struggle.23.d 
 
@@ -708,6 +774,10 @@ country_event = {
 
     option = {
         name = "This will increase cooperation with our countries!"
+
+        ai_chance = {
+            factor =80
+        }
 
         ITA = {
 			add_opinion_modifier = {
@@ -808,6 +878,10 @@ country_event = {
 
         name = "Out of question, if Soviets penetrate our economy, we're doomed!"
 
+        ai_chance = {
+            factor =20
+        }
+
         add_popularity = {
             ideology = communism
             popularity = -0.02
@@ -829,20 +903,37 @@ country_event = {
 }
 country_event = {
 
-    id = SOV_Beria_Struggle.24
+    id = SOV_Beria_Struggle.24 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.24"}
     title = "Soviets propose a Unified Deutschemark Zone"
-    desc = SOV_Beria_Struggle.24.desc
+    desc = SOV_Beria_Struggle.24.d
 
-    fire_only_once = yes 
+    fire_only_once = no 
     is_triggered_only = yes 
 
- #   option = {
- #       name = "Out of the question!"
-#
- #       SOV = {
-  #          country_event = SOV_Beria_Struggle.26
-   #     }
-    #}
+    option = {
+       name = "Out of the question!"
+
+        
+        if = {
+            limit = {
+                tag = USA
+            }
+            custom_effect_tooltip = US_Warning_Subsidies
+            set_country_flag = Unified_Rejected
+                add_threat = 2
+                    WGR = {
+                country_event = SOV_Beria_Struggle.28 
+                }
+        }
+        else = {
+            set_country_flag = Unified_Rejected
+
+            SOV = {
+            country_event = SOV_Beria_Struggle.26
+            }
+        }
+    }
     option = {
         name = "This might benefit Germany and Détente!"
 
@@ -853,11 +944,46 @@ country_event = {
 }
 country_event = {
 
-    id = SOV_Beria_Struggle.25
-    title = "[FROM.GetName] accepts!"
-    desc = SOV_Beria_Struggle.25.desc
+    id = SOV_Beria_Struggle.28  
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.28 "}
+    title = "[USA.GetLeader] pressures us!"
+    desc = SOV_Beria_Struggle.28.d
 
-    fire_only_once = yes 
+    is_triggered_only = yes 
+    fire_only_once = yes
+
+    option = {
+        name = "We should give in, the Soviets are indeed manipulative after all..."
+
+        USA = {
+            add_threat = 1
+
+            add_to_variable = {
+                currentMoney = -100
+            }
+        }
+        add_to_variable = {
+            currentMoney = 100
+        }
+
+        custom_effect_tooltip = 
+    }
+    option = {
+        name = "Out of question, we are free now!"
+
+        add_political_power = -50
+
+        clr_country_flag = Unified_Rejected
+    }
+}
+country_event = {
+
+    id = SOV_Beria_Struggle.25 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.25"}
+    title = "[FROM.GetName] accepts!"
+    desc = SOV_Beria_Struggle.25.d
+
+    fire_only_once = no 
     is_triggered_only = yes 
 
     option = {
@@ -866,24 +992,25 @@ country_event = {
 }
 country_event = {
 
-    id = SOV_Beria_Struggle.26
+    id = SOV_Beria_Struggle.26 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.26"}
     title = "[FROM.GetName] refuses!"
-    desc = SOV_Beria_Struggle.26.desc
+    desc = SOV_Beria_Struggle.26.d
 
-    fire_only_once = yes 
+    fire_only_once = no 
     is_triggered_only = yes 
 
     option = {
-        set_country_flag = Unified_Rejected
 
         name = "Darn it!"
     }
 }
 country_event = {
 
-    id = SOV_Beria_Struggle.27
+    id = SOV_Beria_Struggle.27 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.27"}
     title = "Stimulus Package Size" 
-    desc = SOV_Beria_Struggle.27.desc 
+    desc = SOV_Beria_Struggle.27.d 
 
     fire_only_once = yes 
     is_triggered_only = yes 
@@ -1026,11 +1153,1345 @@ country_event = {
             
     }
 }
+country_event = {
+
+    id = SOV_Beria_Struggle.30  
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.30 "}
+    title = "An Invitation to the Pan-European Union" 
+    desc = SOV_Beria_Struggle.30.d 
+
+    fire_only_once = no 
+    is_triggered_only = yes 
+
+    option = {
+        name = "We want in!"
+
+        add_dynamic_modifier = {
+           modifier = federation_european_union
+        }
+
+        SOV = {
+            country_event = SOV_Beria_Struggle.35
+        }
+
+        ai_chance = {
+            factor =30
+
+            modifier = {
+				has_opinion = {
+					target = SOV
+					value > 25
+				    }
+                    factor = 2
+            }
+            modifier = {
+				has_opinion = {
+					target = SOV
+					value > 50
+				    }
+                    factor = 2
+            }
+            modifier = {
+				has_opinion = {
+					target = SOV
+					value > 75
+				    }
+                    factor = 4
+            }
+            modifier = {
+				has_opinion = {
+					target = ROOT
+					value < 0
+				    }
+                factor = 0.5
+			}
+            modifier = {
+				has_opinion = {
+					target = SOV
+					value < -25
+				    }
+                factor = 0.5
+			    } 
+            }
+        }
+    option = {
+        name = "Deep down, they want us dead..."
+
+        SOV = {
+            country_event = SOV_Beria_Struggle.36
+        }
+
+        ai_chance = {
+            factor =30
+                modifier = {
+                        is_puppet = yes
+                    factor = 0.001
+                }
+            
+            }
+        }
+}
+country_event = {
+
+    id = SOV_Beria_Struggle.35 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.35"}
+    title = "[FROM.GetName] enters the Pan-European Union!"
+    desc = SOV_Beria_Struggle.25.d
+
+    fire_only_once = no 
+    is_triggered_only = yes 
+
+    option = {
+        name = "Hopefully, everyone will..."
+    }
+}
+country_event = {
+
+    id = SOV_Beria_Struggle.36 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.36"}
+    title = "[FROM.GetName] refuses to enter the Pan-European Union!"
+    desc = SOV_Beria_Struggle.36.d
+
+    fire_only_once = no 
+    is_triggered_only = yes 
+
+    option = {
+        name = "Darn it!"
+    }
+}
+country_event = {
+
+    id = SOV_Beria_Struggle.37 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.37"}
+    title = "[FROM.GetName] wishes to enter the Pan-European Union"
+    desc = SOV_Beria_Struggle.37.d
+
+    fire_only_once = no 
+    is_triggered_only = yes 
+
+    option = {
+        name = "Sure!" 
+
+        add_to_variable = {
+            global.federation_european_union_entrance = 1
+        }
+
+        ai_chance = {
+            factor =9
+        }
+
+        FROM = {
+            country_event = SOV_Beria_Struggle.38
+        }
+    }
+    option = {
+        name = "Out of question!"
+
+        FROM = {
+            country_event = SOV_Beria_Struggle.39
+        }
+
+        add_to_variable = {
+            global.federation_european_union_entrance = -1
+        }
+        ai_chance = {
+            factor =1
+        }
+    }
+}
+country_event = {
+
+    id = SOV_Beria_Struggle.38 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.38"}
+    title = "[FROM.GetName] votes yes on our application to enter the Pan-European Union!"
+    desc = SOV_Beria_Struggle.38.d
+
+    fire_only_once = no 
+    is_triggered_only = yes 
+
+    option = {
+        name = "Great!"
+    }
+}
+country_event = {
+
+    id = SOV_Beria_Struggle.39 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.39"}
+    title = "[FROM.GetName] votes no on our application to enter the Pan-European Union!"
+    desc = SOV_Beria_Struggle.39.d
+
+    fire_only_once = no 
+    is_triggered_only = yes 
+
+    option = {
+        name = "Darn it!"
+    }
+}
+country_event = {
+
+    id = SOV_Beria_Struggle.40 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.40"}
+    title = "Fate of the Great Zhukov"
+    desc = SOV_Beria_Struggle.40.d 
+
+    fire_only_once = yes 
+    is_triggered_only = yes 
+
+    option = {
+        name = "Off with his head!" 
+
+        remove_ideas = Politicized_Army_3
+        add_ideas = Politicized_Army_4
+
+        remove_unit_leader = 19601
+    }
+    option = {
+        name = "We need Zhukov to keep our military expertise!" 
+
+        remove_ideas = Politicized_Army_3
+        add_ideas = Politicized_Army_2
+    }
+}
+country_event = {
+
+    id = SOV_Beria_Struggle.41 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.41"}
+    title = "Demilitarize the German Border?" 
+    desc = SOV_Beria_Struggle.41.d
+
+    fire_only_once = no 
+    is_triggered_only = yes 
+
+    option = {
+        name = "Of course, this will certainly tone down tensions" 
+
+        if = {
+            limit = {
+                tag = WGR 
+            }
+            set_global_flag = Demilitarize_Germany_yes_1 
+        }
+        else_if = {
+            limit = {
+                tag = DDR 
+            }
+            set_global_flag = Demilitarize_Germany_yes_2 
+        }
+        else_if = {
+            limit = {
+                tag = USA 
+            }
+            set_global_flag = Demilitarize_Germany_yes_3
+        }
+        SOV = { country_event = SOV_Beria_Struggle.25 }
+    }
+    option = {
+        name = "Out of question!"
+
+        set_global_flag = Demilitarize_Germany_no
+
+        SOV = { country_event = SOV_Beria_Struggle.26 }
+
+        if = {
+            limit = {
+                tag = USA 
+                has_global_flag = Demilitarize_Germany_yes_1
+            }
+            custom_effect_tooltip = US_Warning_Subsidies
+            WGR = {
+                country_event = SOV_Beria_Struggle.42 
+            }
+        }
+        else_if = {
+            limit = {
+                tag = DDR 
+            }
+        }
+    }
+}
+country_event = {
+
+    id = SOV_Beria_Struggle.42  
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.42 "}
+    title = "[USA.GetLeader] pressures us!"
+    desc = SOV_Beria_Struggle.42.d
+
+    is_triggered_only = yes 
+    fire_only_once = no
+
+    option = {
+        name = "We should give in, the Soviets are indeed manipulative after all..."
+
+        USA = {
+            add_threat = 1
+
+            add_to_variable = {
+                currentMoney = -100
+            }
+        }
+        add_to_variable = {
+            currentMoney = 100
+        }
+
+        custom_effect_tooltip = US_Subsidies_WGR
+    }
+    option = {
+        name = "Out of question, we are free now!"
+
+        add_political_power = -50
+
+        clr_global_flag = Demilitarize_Germany_no
+
+        set_global_flag = Demilitarize_Germany_yes_3
+    }
+}
+country_event = {
+
+    id = SOV_Beria_Struggle.43  
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.43 "}
+    title = "Historic Peace Treaty Proposition from the Soviet Union"
+    desc = SOV_Beria_Struggle.43.d
+
+    is_triggered_only = yes 
+    fire_only_once = yes 
+
+    option = {
+        name = "This proposal is acceptable, let's take the deal!"
+
+        USA = {
+            country_event = SOV_Beria_Struggle.44
+        }
+
+        ai_chance = {
+            factor =90
+        }
+    }
+    option = {
+        name = "No deals with the Soviets, they stole everything from us!"
+
+        ai_chance = {
+            factor =10
+        }
+
+        add_threat = 2
+
+        news_event = japan.698
+    }
+}
+country_event = {
+
+    id = SOV_Beria_Struggle.44 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.44"}
+    title = "The Japanese want to conclude a treaty with the Soviets!"
+    desc = SOV_Beria_Struggle.44.d 
+
+    is_triggered_only = yes 
+    fire_only_once = yes 
+
+    option = {
+        name = "We can't interfere unless we become boogeymen"
+
+        SOV = {
+            remove_state_core = 537 
+
+            add_threat = -2
+        }
+        JAP = {
+            add_threat = -2
+
+            transfer_state = 537
+        }
+
+        news_event = {
+            id = japan.697 
+            hours = 6
+        }
+
+        ai_chance = {
+            factor =30
+        }
+    }
+    option = {
+        name = "This can't happen! Threaten them!"
+
+        add_political_power = -300
+
+        JAP = {
+            country_event = SOV_Beria_Struggle.45
+        }
+        ai_chance = {
+            factor =70
+        }
+    }
+}
+country_event = {
+
+    id = SOV_Beria_Struggle.45 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.45"}
+    title = "The American threaten to withold Okinawa as retaliations!"
+    desc = SOV_Beria_Struggle.45.d 
+
+    is_triggered_only = yes 
+    fire_only_once = yes 
+
+    option = {
+        name = "Let us take back Okinawa instead of the deal" 
+
+        transfer_state = 1206 
+        transfer_state = 526
+        transfer_state = 996
+
+        news_event = japan.698
+
+        add_stability = -0.05
+
+        add_threat = 2
+
+        USA = {
+            add_threat = 2
+        }
+        ai_chance = {
+            factor =30
+        }
+    }
+    option = {
+        name = "The Americans are the true imperialists..." 
+
+        add_political_power = -150
+
+        SOV = {
+            remove_state_core = 537 
+
+            add_threat = -2
+        }
+        JAP = {
+            add_threat = -2
+
+            transfer_state = 537
+        }
+
+        news_event = {
+            id = japan.697 
+            hours = 6
+        }
+        ai_chance = {
+            factor =70
+        }
+    }
+}
+country_event = {
+    id = SOV_Beria_Struggle.46 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.46"}
+    title = "Joining the Soviets in a Korean Peninsula Development Plan?"
+    desc = SOV_Beria_Struggle.46.d 
+
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+        name = "Never!"
+
+        add_threat = 2
+
+        SOV = {
+            country_event = SOV_Beria_Struggle.47
+        }
+    }
+    option = {
+        name = "This will ameliorate our image!"
+
+        custom_effect_tooltip = spend_2000_billion_now
+
+        news_event = SOV_Beria_Struggle.47
+
+        add_to_variable = {
+            currentMoney = 2000
+        }
+        
+        add_threat = -5 
+
+        SOV = {
+            add_threat = -3
+        }
+        
+
+            
+            add_opinion_modifier = {
+					target = KOR 
+					modifier = huge_increase
+				}
+            add_opinion_modifier = {
+					target = KPA 
+					modifier = huge_increase
+				}
+            SOV = {
+				add_opinion_modifier = {
+					target = KOR 
+					modifier = huge_increase
+				}
+                add_opinion_modifier = {
+					target = KPA 
+					modifier = huge_increase
+				}
+			}
+            KPA = {
+                add_opinion_modifier = {
+					target = USA 
+					modifier = huge_increase
+				}
+                add_opinion_modifier = {
+					target = SOV 
+					modifier = huge_increase
+				}
+            }
+            KOR = {
+                add_opinion_modifier = {
+					target = USA 
+					modifier = huge_increase
+				}
+                add_opinion_modifier = {
+					target = SOV 
+					modifier = huge_increase
+				}
+            }
+        KOR = {
+            every_owned_state = {
+                add_building_construction = {
+                    type = infrastructure 
+                    level = 1 
+                    instant_build = yes 
+                }
+                add_building_construction = {
+                    type = state_infrastructure 
+                    level = 1 
+                    instant_build = yes 
+                }
+             }
+        }
+        KPA = {
+            every_owned_state = {
+                add_building_construction = {
+                    type = infrastructure 
+                    level = 1 
+                    instant_build = yes 
+                }
+                add_building_construction = {
+                    type = state_infrastructure 
+                    level = 1 
+                    instant_build = yes 
+                }
+             }
+        }
+
+        750 = {
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = industrial_complex
+                level = 2
+                instant_build = yes
+            }
+        }
+        525 = {
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = industrial_complex
+                level = 2
+                instant_build = yes
+            }
+        }
+        751 = {
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = industrial_complex
+                level = 2
+                instant_build = yes
+            }
+        }
+        745 = {
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = industrial_complex
+                level = 2
+                instant_build = yes
+            }
+        }
+        746 = {
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = industrial_complex
+                level = 2
+                instant_build = yes
+            }
+        }
+        1205 = {
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = industrial_complex
+                level = 2
+                instant_build = yes
+            }
+        }
+    }
+    option = {
+
+        name = "This is unacceptable!"
+
+        SOV = {
+            country_event = SOV_Beria_Struggle.48
+        }
+    }
+
+    option = {
+
+        name = "Refuse but foot the bill for South Korea only!"
+
+        add_threat = 3 
+
+        SOV = {
+            add_threat = -2
+
+            country_event = SOV_Beria_Struggle.49
+        }
+    }
+}
+news_event = {
+    id = SOV_Beria_Struggle.47 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.47"}
+    title = "Joint-Development Plan of the Korean Peninsula adopted by both superpowers"
+    desc = SOV_Beria_Struggle.47.d 
+
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+        name = "Cool"
+    }
+}
+country_event = {
+    id = SOV_Beria_Struggle.48 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.48"}
+    title = "Footing the bill for the Americans?"
+    desc = SOV_Beria_Struggle.48.d 
+
+    fire_only_once = yes 
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Let's do our part only"
+
+        SOV = {
+            add_threat = -3
+        }
+        
+
+            
+            add_opinion_modifier = {
+					target = KOR 
+					modifier = huge_increase
+				}
+            add_opinion_modifier = {
+					target = KPA 
+					modifier = huge_increase
+				}
+            SOV = {
+				add_opinion_modifier = {
+					target = KOR 
+					modifier = huge_increase
+				}
+                add_opinion_modifier = {
+					target = KPA 
+					modifier = huge_increase
+				}
+			}
+            KPA = {
+                add_opinion_modifier = {
+					target = USA 
+					modifier = huge_increase
+				}
+                add_opinion_modifier = {
+					target = SOV 
+					modifier = huge_increase
+				}
+            }
+            KOR = {
+                add_opinion_modifier = {
+					target = USA 
+					modifier = huge_increase
+				}
+                add_opinion_modifier = {
+					target = SOV 
+					modifier = huge_increase
+				}
+            }
+            
+            KPA = {
+            every_owned_state = {
+                
+            add_building_construction = {
+                type = infrastructure 
+                level = 1 
+                instant_build = yes 
+            }
+            add_building_construction = {
+                type = state_infrastructure 
+                level = 1 
+                instant_build = yes 
+            }
+        }
+    }
+    KOR = {
+            every_owned_state = {
+                
+            add_building_construction = {
+                type = infrastructure 
+                level = 1 
+                instant_build = yes 
+            }
+            add_building_construction = {
+                type = state_infrastructure 
+                level = 1 
+                instant_build = yes 
+            }
+        }
+    }
+    
+        750 = {
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+                instant_build = yes
+            }
+        }
+        525 = {
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+                instant_build = yes
+            }
+        }
+        751 = {
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+                instant_build = yes
+            }
+        }
+        745 = {
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+                instant_build = yes
+            }
+        }
+        746 = {
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+                instant_build = yes
+            }
+        }
+        1205 = {
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+                instant_build = yes
+            }
+        }
+    }
+
+    option = {
+
+        name = "We will do twice as much!"
+        custom_effect_tooltip = spend_2000_billion_now 
+
+        add_to_variable = {
+            currentMoney -2000
+        }
+
+        SOV = {
+				add_opinion_modifier = {
+					target = KOR 
+					modifier = huge_increase
+				}
+                add_opinion_modifier = {
+					target = KPA 
+					modifier = huge_increase
+				}
+			}
+            KPA = {
+                add_opinion_modifier = {
+					target = KOR 
+					modifier = huge_increase
+				}
+                add_opinion_modifier = {
+					target = SOV 
+					modifier = huge_increase
+				}
+            }
+            KOR = {
+                add_opinion_modifier = {
+					target = KPA 
+					modifier = huge_increase
+				}
+                add_opinion_modifier = {
+					target = SOV 
+					modifier = huge_increase
+				}
+            }
+        KPA = {
+        every_owned_state = {
+
+            add_building_construction = {
+                type = infrastructure 
+                level = 1 
+                instant_build = yes 
+            }
+            add_building_construction = {
+                type = state_infrastructure 
+                level = 1 
+                instant_build = yes 
+            }
+        }
+        }
+        KOR = {
+        every_owned_state = {
+
+            add_building_construction = {
+                type = infrastructure 
+                level = 1 
+                instant_build = yes 
+            }
+            add_building_construction = {
+                type = state_infrastructure 
+                level = 1 
+                instant_build = yes 
+            }
+        }
+        }
+        750 = {
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = industrial_complex
+                level = 2
+                instant_build = yes
+            }
+        }
+        525 = {
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = industrial_complex
+                level = 2
+                instant_build = yes
+            }
+        }
+        751 = {
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = industrial_complex
+                level = 2
+                instant_build = yes
+            }
+        }
+        745 = {
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = industrial_complex
+                level = 2
+                instant_build = yes
+            }
+        }
+        746 = {
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = industrial_complex
+                level = 2
+                instant_build = yes
+            }
+        }
+        1205 = {
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = industrial_complex
+                level = 2
+                instant_build = yes
+            }
+        }
+    }
+}
+country_event = {
+    id = SOV_Beria_Struggle.49  
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.49 "}
+    title = "The Americans wants to stick it to us!"
+    desc = SOV_Beria_Struggle.49.d 
+
+    is_triggered_only = yes
+    fire_only_once = yes 
+
+    option = {
+        name = "Let's fund North Korea only" 
+
+        KPA = {
+        every_owned_state = {
+                
+            add_building_construction = {
+                type = infrastructure 
+                level = 2
+                instant_build = yes 
+            }
+            add_building_construction = {
+                type = state_infrastructure 
+                level = 2
+                instant_build = yes 
+            }
+        }
+        }
+        745 = {
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = industrial_complex
+                level = 2
+                instant_build = yes
+            }
+        }
+        746 = {
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = industrial_complex
+                level = 2
+                instant_build = yes
+            }
+        }
+        1205 = {
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = industrial_complex
+                level = 2
+                instant_build = yes
+            }
+        }
+    }
+    option = {
+        name = "Just withdraw the plan and get the money back..." 
+
+        add_to_variable = {
+            currentMoney = 2000
+        }
+    }
+    option = {
+        name = "Let's do double the amount for North Korea"
+
+        custom_effect_tooltip = spend_2000_billion_now 
+
+        add_to_variable = {
+            currentMoney = -2000
+        }
+
+        add_threat = 1
+
+        KPA = {
+        every_owned_state = {
+                
+            add_building_construction = {
+                type = infrastructure 
+                level = 3
+                instant_build = yes 
+            }
+            add_building_construction = {
+                type = state_infrastructure 
+                level = 3
+                instant_build = yes 
+            }
+            }
+        }
+        745 = {
+            add_extra_state_shared_building_slots = 4
+            add_building_construction = {
+                type = industrial_complex
+                level = 4
+                instant_build = yes
+            }
+        }
+        746 = {
+            add_extra_state_shared_building_slots = 4
+            add_building_construction = {
+                type = industrial_complex
+                level = 4
+                instant_build = yes
+            }
+        }
+        1205 = {
+            add_extra_state_shared_building_slots = 4
+            add_building_construction = {
+                type = industrial_complex
+                level = 4
+                instant_build = yes
+            }
+        }
+    }
+}
+country_event = {
+    id = SOV_Beria_Struggle.50  
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.50 "}
+    title = "Accepting a Soviet transborder investement offer?"
+    desc = SOV_Beria_Struggle.50.d
+
+    is_triggered_only = yes 
+
+    option = {
+        name = "Sure, this could be a good idea" 
+
+        SOV = {
+            add_opinion_modifier = {
+					target = PRC 
+					modifier = huge_increase
+				}
+        }
+        add_opinion_modifier = {
+					target = SOV
+					modifier = huge_increase
+			}
+
+        714 = {
+            add_extra_state_shared_building_slots = 2 
+            add_building_construction = {
+                type = infrastructure 
+                level = 1
+                instant_build = yes
+            }
+        }
+        715 = {
+            add_extra_state_shared_building_slots = 2 
+            add_building_construction = {
+                type = infrastructure 
+                level = 1
+                instant_build = yes
+            }
+        }
+        563 = {
+            add_extra_state_shared_building_slots = 2 
+            add_building_construction = {
+                type = infrastructure 
+                level = 1
+                instant_build = yes
+            }
+        }
+        408 = {
+            add_extra_state_shared_building_slots = 2 
+            add_building_construction = {
+                type = infrastructure 
+                level = 1
+                instant_build = yes
+            }
+        }
+
+        SOV = {
+        country_event = SOV_Beria_Struggle.25
+        }
+    }
+    option = {
+        name = "Out of question"
+
+        SOV = {
+            add_to_variable = {
+                currentMoney = 500
+            }
+        }
+
+        SOV = {
+            country_event = SOV_Beria_Struggle.26
+        }
+    }
+}
+country_event = {
+    id = SOV_Beria_Struggle.100  
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.100 "}
+    title = "The Soviets want to invest in our country!"
+    desc = SOV_Beria_Struggle.100.d 
+
+    is_triggered_only = yes 
+    fire_only_once = no 
+
+    option = {
+        name = "Sure" 
+        
+        SOV = {
+            country_event = {
+                        days = 1500
+                        id = SOV_Beria_Struggle.102 
+                    }   
+                }
+
+        for_loop_effect = {
+					end = influence_array^num
+					value = v
+					if = {
+						limit = {
+							check_variable = { influence_array^v = SOV }
+						}
+						add_to_variable = { influence_array_val^v = 1000 }
+						set_country_flag = found
+					}
+				}
+				if = {
+					limit = { NOT = { has_country_flag = found } }
+						add_to_array = { influence_array = SOV.id }
+						add_to_array = { influence_array_val = 1000 }
+				}
+				clr_country_flag = found
+				recalculate_influence = yes
+
+        SOV = {
+            add_to_variable = {
+                currentMoney = -500
+            }
+            country_event = SOV_Beria_Struggle.25
+        }
+
+        capital_scope = {
+            add_extra_state_shared_building_slots = 4
+            add_building_construction = {
+                type = industrial_complex 
+                level = 4 
+                instant_build = yes 
+            }
+        }
+    }
+    option = {
+        name = "Out of question"
+        
+        SOV = {
+            country_event = SOV_Beria_Struggle.26
+        }
+    }
+}
+country_event = {
+    id = SOV_Beria_Struggle.101 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.101"}
+    title = "The Soviets want to invest in our country!"
+    desc = SOV_Beria_Struggle.101.d 
+
+    is_triggered_only = yes 
+    fire_only_once = no 
+
+    option = {
+        name = "Sure" 
+
+                SOV = {
+                    country_event = {
+                        days = 1500
+                        id = SOV_Beria_Struggle.103 
+                    }   
+                }
+            
+        
+
+        for_loop_effect = {
+					end = influence_array^num
+					value = v
+					if = {
+						limit = {
+							check_variable = { influence_array^v = SOV }
+						}
+						add_to_variable = { influence_array_val^v = 2500 }
+						set_country_flag = found
+					}
+				}
+				if = {
+					limit = { NOT = { has_country_flag = found } }
+						add_to_array = { influence_array = SOV.id }
+						add_to_array = { influence_array_val = 2500 }
+				}
+				clr_country_flag = found
+				recalculate_influence = yes
+
+        SOV = {
+            add_to_variable = {
+                currentMoney = -2000
+            }
+            country_event = SOV_Beria_Struggle.25
+        }
+
+        capital_scope = {
+            add_extra_state_shared_building_slots = 4
+            add_building_construction = {
+                type = industrial_complex 
+                level = 4 
+                instant_build = yes 
+            }
+        }
+        437 = {
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = industrial_complex 
+                level = 1
+                instant_build = yes 
+            }
+        }
+        438 = {
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = industrial_complex 
+                level = 1
+                instant_build = yes 
+            }
+        }
+        427 = {
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = industrial_complex 
+                level = 1
+                instant_build = yes 
+            }
+        }
+        429 = {
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = industrial_complex 
+                level = 1
+                instant_build = yes 
+            }
+        }
+        426 = {
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = industrial_complex 
+                level = 1
+                instant_build = yes 
+            }
+        }
+        432 = {
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = industrial_complex 
+                level = 1
+                instant_build = yes 
+            }
+        }
+    }
+    option = {
+        name = "Out of question"
+        
+        SOV = {
+            country_event = SOV_Beria_Struggle.26
+        }
+    }
+}
+country_event = {
+    id = SOV_Beria_Struggle.102 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.102"}
+    desc = SOV_Beria_Struggle.102.d 
+    title = "Reaping our investments benefits from [ROOT.GetName]"
+
+    is_triggered_only = yes 
 
 
+    option = {
+        name = "Great" 
+
+        195 = {
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = office_park 
+                level = 1
+                instant_build = yes 
+            }
+        }
+    }
+}
+country_event = {
+    id = SOV_Beria_Struggle.103 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.103"}
+    desc = SOV_Beria_Struggle.103.d 
+    title = "Reaping our investments benefits from [ROOT.GetName]"
+
+    is_triggered_only = yes 
 
 
+    option = {
+        name = "Great" 
+
+        capital_scope = {
+            add_extra_state_shared_building_slots = 5
+            add_building_construction = {
+                type = office_park 
+                level = 5
+                instant_build = yes 
+            }
+        }
+    }
+}
+country_event = {
+    id = SOV_Beria_Struggle.104 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.104"}
+    desc = SOV_Beria_Struggle.104.d 
+    title = "Adhere to the Pacific Naval Treaty?"
+
+    is_triggered_only = yes 
+
+    option = {
+        name = "That surely will help cool things down" 
+
+        add_ideas = pacific_naval_treaty_adherent
+
+        set_country_flag = pacific_naval_treaty_adherent
+
+        add_threat = -0.5
+
+        news_event = SOV_Beria_Struggle.105
+    }
+    option = {
+        name = "Balderdash, our navy is much needed!" 
+
+        news_event = SOV_Beria_Struggle.106
+
+        add_threat = 0.5
+    }
+}
+news_event = {
+    id = SOV_Beria_Struggle.105 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.105"}
+    desc = SOV_Beria_Struggle.105.d 
+    title = "[ROOT.GetName] joins the Pacific Naval Treaty"
+
+    is_triggered_only = yes 
 
 
+    option = {
+        name = "Sounds Goods" 
+    }
 
+}
+news_event = {
+    id = SOV_Beria_Struggle.106 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.106"}
+    desc = SOV_Beria_Struggle.106.d 
+    title = "[ROOT.GetName] refuses to join the Pacific Naval Treaty"
+
+    is_triggered_only = yes 
+
+
+    option = {
+        name = "Sounds Bad" 
+    }
+
+}
+news_event = {
+    id = SOV_Beria_Struggle.107 
+ immediate = {log = "[GetDateText]: [Root.GetName]: id = SOV_Beria_Struggle.107"}
+    desc = SOV_Beria_Struggle.107.d 
+    title = "[ROOT.GetName] leaves the Pacific Naval Treaty"
+
+    is_triggered_only = yes 
+
+
+    option = {
+        name = "Sounds Bad" 
+    }
 }

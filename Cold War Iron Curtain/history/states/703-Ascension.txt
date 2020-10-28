@@ -13,7 +13,6 @@ state = {
 			infrastructure = 1
 			state_infrastructure = 1
 			
-			office_park = 1
 
 			13013 = {
 				naval_base = 1
@@ -27,5 +26,5 @@ state = {
 	}
 	manpower = 806
 	buildings_max_level_factor = 1.000
-	state_category = pop1
+	state_category = wasteland
 }

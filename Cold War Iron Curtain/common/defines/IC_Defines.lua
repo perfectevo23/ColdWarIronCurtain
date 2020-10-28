@@ -28,8 +28,8 @@ NDefines.NBuildings.ANTI_AIR_SUPERIORITY_MULT = 100.0 -- How much air superiorit
 NDefines.NBuildings.INFRASTRUCTURE_RESOURCE_BONUS= 0.0
 NDefines.NBuildings.MAX_BUILDING_LEVELS = 200
 NDefines.NBuildings.MAX_SHARED_SLOTS = 42
-NDefines.NBuildings.RADAR_RANGE_MAX = 220 -- Range is interpolated between building levels 1-15.
-NDefines.NBuildings.SUPPLY_PORT_LEVEL_THROUGHPUT = 20 -- Supply throughput per level of naval base. Vanilla value is 3.
+NDefines.NBuildings.RADAR_RANGE_MAX = 400 -- Range is interpolated between building levels 1-15.
+NDefines.NBuildings.SUPPLY_PORT_LEVEL_THROUGHPUT = 5 -- Supply throughput per level of naval base. Vanilla value is 3.
 
 NDefines.NCountry.EVENT_PROCESS_OFFSET = 20 -- Events are checked every X day per country or state (1 is ideal, but CPU heavy)
 NDefines.NCountry.POLITICAL_POWER_CAP = 2000000.0
@@ -77,9 +77,9 @@ NDefines.NGame.START_DATE = "1945.5.23.12"
 
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_WIDTH = 2 -- Max width of support in division designer.
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 5 -- Max width of support in division designer.
-NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 9999999;
-NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 9999999;
-NDefines.NMilitary.MAX_AIR_EXPERIENCE = 9999999;
+NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 5000;
+NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 5000;
+NDefines.NMilitary.MAX_AIR_EXPERIENCE = 5000;
 NDefines.NMilitary.CORPS_COMMANDER_ARMIES_CAP = -1
 NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 0
 NDefines.NMilitary.BASE_CAPTURE_EQUIPMENT_RATIO = 0.05
@@ -121,7 +121,7 @@ NDefines.NAI.RESEARCH_AHEAD_OF_TIME_FACTOR = 9999999
 
 NDefines.NProduction.MAX_EQUIPMENT_RESOURCES_NEED = 4
 NDefines.NProduction.MAX_CIV_FACTORIES_PER_LINE = 10
-NDefines.NProduction.BASE_FACTORY_SPEED_NAV = 1.2 -- Double construction time for ships, vanilla 25
+NDefines.NProduction.BASE_FACTORY_SPEED_NAV = 2.5 -- Double construction time for ships, vanilla 25
 NDefines.NProduction.INFRA_MAX_CONSTRUCTION_COST_EFFECT = 0.7
 NDefines.NProduction.EQUIPMENT_MODULE_ADD_XP_COST = 2.0
 NDefines.NProduction.EQUIPMENT_MODULE_REPLACE_XP_COST = 2.0
